@@ -16,6 +16,6 @@ My name is Mihai. I'm interested in technology, and to some exentent art;literat
 
 "Art is a call to a higher being/A piece of art it’s a window to a transcendent"
 
-[the why](https://www.youtube.com/watch?v=7z3mg6fjmzw)
+[The why](https://www.youtube.com/watch?v=7z3mg6fjmzw)
 
 ### What else?
