@@ -4,7 +4,7 @@ title: About me
 subtitle: Hard to get to know and impossible to forget
 ---
 
-My name is Mihai. I'm interested in technology, and to some exentent art;literature or things tha make the reveal the world from a different perspective. 
+My name is Mihai. I'm interested in technology, and to some extent **art/literature/**. I'm interested about things that reveal the world in a different perspective. Nothing good come out of complacent.
 
 ### Technology
 
