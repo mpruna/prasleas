@@ -10,11 +10,12 @@ My name is Mihai. I'm interested in technology, and to some exentent art;literat
 
 "My dear, here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that".
 
+[The why](https://www.youtube.com/watch?v=oZmMtM7LTqI)
+
 ### Art | Intellectual pursuit
 
 "Art is a call to a higher being/A piece of art it’s a window to a transcendent"
 
+[the why](https://www.youtube.com/watch?v=7z3mg6fjmzw)
 
 ### What else?
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
