@@ -12,18 +12,14 @@ Within this project I show how we can use Jenkins to:
 
 On the analytics side John Hopkins University did an admirable job. See link below:
 
-**John Hopkins**
-
-* https://coronavirus.jhu.edu/map.html
+**John Hopkins** :https://coronavirus.jhu.edu/map.html
 
 **Other initiatives(Italy + Siscale):**
 
 * https://www.bloccodigitale.com/
 * https://covid19.siscale.org/app/kibana#/
 
-**Romania:**
-
-* https://covid19.geo-spatial.org/
+**Romania:** :https://covid19.geo-spatial.org/
 
 ### Project Workflow
 
