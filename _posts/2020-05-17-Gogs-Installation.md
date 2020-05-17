@@ -1,8 +1,8 @@
-### Gogs installation
+### Gogs
 
-<img align="Center" src="gogs.png" alt="Gogs">
+<img align="Center" src="Images/gogs.png">
+
  
-
 Gogs, an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
 It's small private Github repository. 
 
