@@ -1,6 +1,5 @@
-### Gogs
 
-![Img](Images/gogs.png)
+![Gogs](https://github.com/mpruna/prasleas/blob/gh-pages/_posts/Images/gogs.png)
 
 
 Gogs, an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
