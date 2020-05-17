@@ -32,9 +32,9 @@ On the analytics side John Hopkins University did an admirable job link below:
 The workflow can seen as a chained sequence of steps(build steps). Each successful build step triggers the next build. 
 
 1. Data is available to the public.
-2. A Jenkins job listen for new data and based on a specific action it trigger a build job.
-3. A Python scrip generates the analytics.
-4. Post analytics to the public.
+2. A Jenkins job listens for new data, and based on a specific action (webhook trigger) it starts build job.
+3. A Python script generates the analytics.
+4. Analytics results are pushed to the public
 
 ### Jenkins architecture
 
