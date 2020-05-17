@@ -94,6 +94,7 @@ But this functionality must be configured.
 
 #### Jenkins setup (Build job setup)
 
+```
 1. Click add new item
 2. Choose freestyle project (name it) git it a name
 3. In (Source Code Management) choose Git:
@@ -103,6 +104,7 @@ But this functionality must be configured.
     
 4. Build trigger:
     * Check (GitHub hook trigger for GITScm polling)
+```
 
 #### Gogs webhook setup:
 
@@ -115,8 +117,8 @@ But this functionality must be configured.
 
 ### (2nd Job Analytics)
 
-1. Create a new job(previous Jenkins steps **(.1.2)** )
-2. In build section - [x] execute shell script:
+1. Create a new job(see previous Jenkins steps 1 and 2)
+2. In build section check [execute shell script]:
 
 ```jql
 py="/home/anaconda3/envs/py37_covidenv/bin/python"
