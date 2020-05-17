@@ -1,6 +1,5 @@
 
-![Gogs](../../assets/img/gogs.png)
-
+![Gogs](../assets/img/gogs.png)
 
 Gogs is an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
 
