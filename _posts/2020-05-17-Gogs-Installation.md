@@ -1,7 +1,7 @@
 ### Gogs installation
 
-<img align="Center" src="gogs.png">
-
+<img align="Center" src="gogs.png" alt="Gogs">
+ 
 
 Gogs, an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
 It's small private Github repository. 
@@ -88,5 +88,5 @@ FLUSH PRIVILEGES;
 
 
 Maria DB installation refs:
-https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-18-04
-https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+* https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-18-04
+* https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
