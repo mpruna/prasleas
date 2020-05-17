@@ -12,13 +12,12 @@ Within this project I show how we can use Jenkins to:
 
 On the analytics side John Hopkins University did an admirable job. See link below:
 
+```
 **John Hopkins**: https://coronavirus.jhu.edu/map.html
-
 **Italy**: https://www.bloccodigitale.com/
-
 **Siscale**: https://covid19.siscale.org/app/kibana#/
-
 **Romania:**: https://covid19.geo-spatial.org/
+```
 
 ### Project Workflow
 
@@ -93,10 +92,8 @@ But this functionality must be configured.
 1. Click add new item
 2. Choose freestyle project (name it) git it a name
 3. In (Source Code Management) choose Git:
-    * Repository URL (**add http repository url**):
-        * http://localhost:3000/gogs/COVID_Private_Repo.git
+    * Repository URL (**add http repository url**): http://localhost:3000/gogs/COVID_Private_Repo.git
     * Choose gogs credentials
-    
 4. Build trigger:
     * Check (GitHub hook trigger for GITScm polling)
     
