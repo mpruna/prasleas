@@ -10,13 +10,13 @@ Within this project I show how we can use Jenkins to:
 * generate the analytics
 * publish the analytics
 
-On the analytics side John Hopkins University did an admirable job. See link below:
+On the analytics side John Hopkins University did an admirable job. But there where also other good project.  
+See the links below:
 
-
-[**John Hopkins**:](https://coronavirus.jhu.edu/map.html)    
-[**Italy**:](https://www.bloccodigitale.com/)    
-[**Siscale**:](https://covid19.siscale.org/app/kibana#/)   
-[**Romania:**:](https://covid19.geo-spatial.org/)   
+[**John Hopkins University**](https://coronavirus.jhu.edu/map.html)    
+[**Italy**](https://www.bloccodigitale.com/)    
+[**Siscale**](https://covid19.siscale.org/app/kibana#/)   
+[**Romania:**](https://covid19.geo-spatial.org/)   
 
 
 ### Project Workflow
