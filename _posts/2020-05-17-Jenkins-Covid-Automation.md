@@ -1,15 +1,9 @@
-This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs(a private Github repo).
+This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs (a private Github repo).
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
 Gogs will act both as Private and Public repository,
-Project is centered around COVID-19 public data-sets.
+In this project I use COVID-19 public data-sets.
 
-The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.
-Within this project I show how we can use Jenkins to:
-
-* pull data-sets from public sources
-* generate the analytics
-* publish the analytics
-
+The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.  
 On the analytics side John Hopkins University did an admirable job. But there where also other good project.  
 See the links below:
 
@@ -18,6 +12,11 @@ See the links below:
 [**Siscale**](https://covid19.siscale.org/app/kibana#/)   
 [**Romania**](https://covid19.geo-spatial.org/)   
 
+Within this project I show how we can use Jenkins to:
+
+* pull data-sets from public sources
+* generate the analytics
+* publish the analytics
 
 ### Project Workflow
 
