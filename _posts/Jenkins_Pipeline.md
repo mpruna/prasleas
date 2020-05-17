@@ -1,5 +1,6 @@
-This project describes an data acquisition and analytics pipeline based on Jenkins, Python.
-Jenkins a CI/CD tool mostly used in DevOps will automate the complete process.
+This project describes an data acquisition and analytics pipeline based on Jenkins, Python and Gogs(a private Github repo).
+Jenkins a CI/CD tool mostly used in DevOps will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate analytics.
+Gogs will act both as  Private and Public repository,
 Project is centered around COVID-19 public data-sets.
 
 The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.
