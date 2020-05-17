@@ -1,6 +1,6 @@
-This project describes an data acquisition and analytics pipeline based on Jenkins, Python and Gogs(a private Github repo).
-Jenkins a CI/CD tool mostly used in DevOps will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate analytics.
-Gogs will act both as  Private and Public repository,
+This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs(a private Github repo).
+Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
+Gogs will act both as Private and Public repository,
 Project is centered around COVID-19 public data-sets.
 
 The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.
@@ -10,13 +10,13 @@ Within this project I show how we can use Jenkins to:
 * generate the analytics
 * publish the analytics
 
-On the analytics side John Hopkins University did an admirable job link below:
+On the analytics side John Hopkins University did an admirable job. See link below:
 
 ### John Hopkins
 
 * https://coronavirus.jhu.edu/map.html
 
-### Other initiatives:
+### Other initiatives(Italy + Siscale):
 
 * https://www.bloccodigitale.com/covid/?fbclid=IwAR3dOnZpxVBQSrXfzT40oTNY30M1h1cPXF55t85WCOUZsCDFi80H4U1zXuM#home
 * https://covid19.siscale.org/app/kibana#/dashboard/82464cb0-64a8-11ea-b265-6519d4618375?_g=h@68f23f3&_a=h@5f51f2c
@@ -29,7 +29,7 @@ On the analytics side John Hopkins University did an admirable job link below:
 
 ![Img](jenkins_pipeline.png)
 
-The workflow can seen as a chained sequence of steps(build steps). Each successful build step triggers the next build. 
+The workflow can be seen as a chained sequence of steps (build steps). Each successful build step triggers the next build. 
 
 1. Data is available to the public.
 2. A Jenkins job listens for new data, and based on a specific action (webhook trigger) it starts build job.
