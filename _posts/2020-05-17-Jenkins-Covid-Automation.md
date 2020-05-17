@@ -115,7 +115,7 @@ But this functionality must be configured.
 1. Create a new job(see previous Jenkins steps 1 and 2)
 2. In build section check [execute shell script]:
  
-Here is a link to the code: https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py
+[Link to code](https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py)
 
 
  
