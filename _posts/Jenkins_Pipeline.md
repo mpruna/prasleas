@@ -84,3 +84,33 @@ Jenkins organizes each project into it's home directory workspace.
 │   │   ├── getHealthCasesByCounty.json
 │   │   └── romania-counties.json
 ```
+
+### (1st Job) Pull data 
+
+The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
+Jenkins pull the datasets.
+The trigger is based on committed data to a public repo.
+But this functionality must be configured.
+
+#### Jenkins setup (Build job setup)
+
+1. Click add new item
+2. Choose freestyle project (Webhook) git it a name
+3. In (Source Code Management) choose Git:
+    * Repository URL (**add http repository url**):
+        * http://localhost:3000/gogs/COVID_Private_Repo.git
+    * Choose gogs credentials
+    
+4. Build trigger:
+    * Check (GitHub hook trigger for GITScm polling)
+
+#### Gogs webhook setup:
+
+1. Click Settings; Webhook  
+2. Setup Payload URL ```http://localhost:8080/gogs-webhook/?job=Webhook``` 
+3. Check (Webhook based on push event)
+4. Activate is and test delivery
+
+![Img](gogs_webhook.png)
+
+
