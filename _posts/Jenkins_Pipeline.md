@@ -24,6 +24,7 @@ On the analytics side John Hopkins University did an admirable job. See link bel
 ### Romania:
 
 * https://covid19.geo-spatial.org/
+* https://covid19.siscale.org/app/kibana#/
 
 ### Project Workflow
 
