@@ -27,7 +27,7 @@ On the analytics side John Hopkins University did an admirable job. See link bel
 
 ### Project Workflow
 
-![Img](jenkins_pipeline.png)
+![Img](../assets/img/jenkins_pipeline.png)
 
 The workflow can be seen as a chained sequence of steps (build steps). Each successful build step triggers the next build. 
 
@@ -113,7 +113,7 @@ But this functionality must be configured.
 3. Check (Webhook based on push event)
 4. Activate is and test delivery
 
-![Img](gogs_webhook.png)
+![Img](../assets/img/gogs_webhook.png)
 
 ### (2nd Job Analytics)
 
