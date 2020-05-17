@@ -2,11 +2,11 @@
 ![Gogs](Images/gogs.png)
 
 
-Gogs, an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
-It's small private Github repository. 
+Gogs is an open-source, lightweight Git server. Gogs can be used for small organizations as a code repository
 
-It's a can be to integrate code, perform tests before a project is available to the public.
-This is referred as in a DevOps environment as  CI/CD (Continuous Integration| Continuous Delivery).
+It can be used in a development environment where there is a need to integrate code, perform tests, before making the project available to the public.
+
+This process is referred in a DevOps environment as  CI/CD (Continuous Integration| Continuous Delivery).
 Continuous Delivery is a practice designed to allow software to be released to production at anytime. Continuous Integration (CI) is the automation of the tasks needed to constantly integrate, test, and
 deploy the work of many developers.
 
