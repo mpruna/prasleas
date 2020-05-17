@@ -101,12 +101,11 @@ echo 'conda activate project_env'
 home="/var/lib/jenkins/workspace/Generate_Analytics/code"
 $py $home/analytics.py
 ```
-The first line tells the jenkins where to look for the python version specific to our project.  
-The second line activates the bash shell. Jenkins uses by default sh environment.  
-The third line activate this particular python environment. Conda or anaconda gives the user the opportunity to create "virtual python environments". These environenets can have different
-libraries with different version without negatively impacting other deployments.  
-Home specifies the location of our code.  
-The last line executes the script.
+The first line tells Jenkins where to look for the python version specific to our project.  
+The second line activates the bash shell. Jenkins uses by default sh shell.   
+The third line activates this particular python environment. Conda/Anaconda gives the user the opportunity to create "virtual python deployments". These "separated python mediums" can have different libraries.  
+Home specifies the location of our code. The last line executes the script.
+
 
  
 [Link to code](https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py)
