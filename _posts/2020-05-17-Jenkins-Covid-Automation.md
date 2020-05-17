@@ -47,28 +47,9 @@ Jenkins organizes each project into it's home directory workspace.
 ├── requirements.txt
 ├── Generate_Analytics
 │   ├── Images
-│   │   ├── county_numbers.png
-│   │   ├── covid_timeseries.png
-│   │   ├── covid_trends.png
-│   │   ├── general_stats.png
-│   │   ├── total_county.png
-│   │   ├── total_dead.png
-│   │   └── total_healed.png
 │   └── README.md
 ├── Upload
 │   ├── Images
-│   │   ├── county_numbers.png
-│   │   ├── covid_timeseries.png
-│   │   ├── covid_trends.png
-│   │   ├── general_stats.png
-│   │   ├── Images
-│   │   │   ├── county_numbers.png
-│   │   │   ├── covid_timeseries.png
-│   │   │   ├── covid_trends.png
-│   │   │   ├── general_stats.png
-│   │   │   ├── total_county.png
-│   │   │   ├── total_dead.png
-│   │   │   └── total_healed.png
 │   ├── README.md
 ├── Webhook
 │   ├── datasets
