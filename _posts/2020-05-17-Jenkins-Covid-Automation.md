@@ -18,8 +18,8 @@ On the analytics side John Hopkins University did an admirable job. See link bel
 
 **Other initiatives(Italy + Siscale):**
 
-* https://www.bloccodigitale.com/covid/?fbclid=IwAR3dOnZpxVBQSrXfzT40oTNY30M1h1cPXF55t85WCOUZsCDFi80H4U1zXuM#home
-* https://covid19.siscale.org/app/kibana#/dashboard/82464cb0-64a8-11ea-b265-6519d4618375?_g=h@68f23f3&_a=h@5f51f2c
+* https://www.bloccodigitale.com/
+* https://covid19.siscale.org/app/kibana#/
 
 **Romania:**
 
