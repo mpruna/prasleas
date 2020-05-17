@@ -16,7 +16,7 @@ See the links below:
 [**John Hopkins University**](https://coronavirus.jhu.edu/map.html)    
 [**Italy**](https://www.bloccodigitale.com/)    
 [**Siscale**](https://covid19.siscale.org/app/kibana#/)   
-[**Romania:**](https://covid19.geo-spatial.org/)   
+[**Romania**](https://covid19.geo-spatial.org/)   
 
 
 ### Project Workflow
