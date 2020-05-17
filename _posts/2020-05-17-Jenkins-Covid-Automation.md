@@ -92,6 +92,22 @@ But this functionality must be configured.
 
 1. Create a new job(see previous Jenkins steps 1 and 2)
 2. In build section check [execute shell script]:
+
+### Shell commands:
+```
+py="/home/anaconda3/envs/py37_covidenv/bin/python"
+$bash
+echo 'conda activate project_env'
+home="/var/lib/jenkins/workspace/Generate_Analytics/code"
+$py $home/analytics.py
+```
+The first line tells the jenkins where to look for the python version specific to our project.  
+The second line activates the bash shell. Jenkins uses by default sh environment.  
+The third line activate this particular python environment. Conda or anaconda gives the user the opportunity to create "virtual python environments". These environenets can have different
+libraries with different version without negatively impacting other deployments.  
+Home specifies the location of our code.  
+The last line executes the script.
+
  
 [Link to code](https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py)
 
