@@ -110,18 +110,26 @@ Home specifies the location of our code. The last line executes the script.
 
 ### Code breakdown
 
-* *read_data* function loads the data-sets into pandas dataframe objects.    
-* *add_geodata* concatenates geographical coordinates.   
-* *get_statistics* calculates the mean/standard deviation /minimum & maximum  values. 
-* *fit_fit_4fbprohpet* makes the necessary transformations on the data. The forecasting function requires a two column dataframe.  The ds column represents the day number, and y represents the actual count.  
-* *fit_4timeseries* transforms time series data into lists. This manipulation is necessary for the time series plotting function. The series graphs (confirmed;recovered;dead numbers).    
-* *plot_map* draws the number Romania map. Color intensity is proportional with count number.  
-* *scatter_plot* draws time series data.    
-* *forecast_model* does a 22 day forecast.  
+**read_data** function loads the data-sets into pandas dataframe objects.    
+**add_geodata** concatenates geographical coordinates.   
+**get_statistics** calculates the mean/standard deviation /minimum & maximum  values. 
+**fit_fit_4fbprohpet** makes the necessary transformations on the data. The forecasting function requires a two column dataframe.  The ds column represents the day number, and y represents the actual count.  
+**fit_4timeseries** transforms time series data into lists. This manipulation is necessary for the time series plotting function. The series graphs (confirmed;recovered;dead numbers).    
+**plot_map** draws the number Romania map. Color intensity is proportional with count number.  
+**scatter_plot** draws time series data.    
+**forecast_model** does a 22 day forecast.  
 
 ### Geo DataFrame
 
 ![Img](../assets/img/geo_df.png)
+
+The "geometry" column in our dataset contains Polygon county boundries, each corresponding to a different region in Romania.  
+There are different geometry type and the most common are: Point, LineString, or Polygon.  
+
+![Img](../assets/img/geo_shapes.png)
+
+
+
 
  
  
