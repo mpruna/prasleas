@@ -121,7 +121,7 @@ Home specifies the location of our code. The last line executes the script.
 
 ### Geo DataFrame
 
-![Img](../assets/img/gogs_webhook.png)
+![Img](../assets/img/geo_df.png)
 
  
  
