@@ -163,7 +163,7 @@ There are different geometry type and the most common are: Point, LineString, or
 
 ### Upload
 
-Similar to the previous build job setup the Github repo url and choose the apropriate credentials. However this time instead of the private url will I will use the public one:
+Similar to the previous build job, setup the Github repo url and choose the apropriate credentials. However this time, instead of the private url, I will use the public one:
 
 ```
 http://localhost:3000/gogs/COVID_Public.git
