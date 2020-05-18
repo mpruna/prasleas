@@ -61,7 +61,7 @@ Jenkins organizes each project into it's home directory workspace.
 
 ### Analytics end-to-end pipeline
 
-![Img](../asserts/img/analytics_pipeline.png)
+![Img](../assets/img/analytics_pipeline.png)
 
 ### (1st Job) Pull data 
 
