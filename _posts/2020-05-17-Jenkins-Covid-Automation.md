@@ -38,7 +38,7 @@ level, human-written code is translated to machine code.
 
 Jenkins organizes each project into it's home directory workspace (/var/lib/jenkins/workspace).
 Each build job has it's own directory, where each step in the job gets executed.  
-There are 3 build spaces: Webhook | Generate_Analytics | Upload 
+There are 3 build spaces: Webhook | Generate_Analytics | Upload  
 Each build job triggers upon successful execution the next job.
 
 
