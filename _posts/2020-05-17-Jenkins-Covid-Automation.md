@@ -25,7 +25,7 @@ Within this project I show how we can use Jenkins to:
 The workflow can be seen as a chained sequence of steps (build steps). Each successful build step triggers the next build. 
 
 1. Data is available to the public.
-2. A Jenkins job listens for new data, and based on a specific action (webhook trigger) it starts build job.
+2. A Jenkins job listens for new data, and based on a specific action (webhook trigger) it starts a build job.
 3. A Python script generates the analytics.
 4. Analytics results are pushed to the public
 
@@ -36,7 +36,12 @@ is a collection of steps, also called builds. The term “Build” comes from Je
 automation system. “Building” software typically refers to the process of compilation, in which high-
 level, human-written code is translated to machine code.
 
-Jenkins organizes each project into it's home directory workspace.
+Jenkins organizes each project into it's home directory workspace (/var/lib/jenkins/workspace).
+Each build job has it's own directory, where each step in the job gets executed.  
+There are 3 build spaces: Webhook | Generate_Analytics | Upload 
+Each build job triggers upon successful execution the next job.
+
+
 
 ### Jenkins directory tree
 
