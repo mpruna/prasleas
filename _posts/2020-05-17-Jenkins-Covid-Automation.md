@@ -1,7 +1,30 @@
+
 This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs (a private Github repo).
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
-Gogs will act both as Private and Public repository,
-In this project I use COVID-19 public data-sets.
+Gogs will act both as Private and Public repository. To showcase this functionality I created COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
+
+Jenkins has been configured to “listen” for webhook requests.
+Each time a commit is pushed to the master branch of the Public_Repo, Gogs will send the webhook trigger to Jenkins.
+
+The public repo will host a "template markdown" with placeholders/fill ins for the analytics. The analytics will generate images and when the pipeline finishes it's execution it will fill in that template.
+As an end result you will have an up to date stats from COVID-19 data.
+
+```
+# Romania_COVID_Analytics(Under construction)
+Representations of COVID data for Romania
+### General stats
+<img align="Center" src="Images/general_stats.png" width=1000>
+### Time Series 
+The graph show the current **COVID-19** evolution:
+<img align="Center" src="Images/covid_timeseries.png" width=1000>
+### COVID growing rates
+<img align="Center" src="Images/covid_trends.png" width=1000> 
+## Total cases by county (left) | Total dead by county (right)
+<img src="Images/total_county.png" height=350 width="450"/> <img src="Images/total_dead.png" height=350 width=450/> 
+### Numbers by county
+<img align="Center" src="Images/county_numbers.png" width=1000/>
+```
+
 
 The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.  
 On the analytics side John Hopkins University did an admirable job. But there where also other good project.  
