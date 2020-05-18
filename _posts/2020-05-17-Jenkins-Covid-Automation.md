@@ -68,7 +68,7 @@ Each build job triggers upon successful execution the next job.
 
 ![Img](../assets/img/analytics_pipeline.png)
 
-### (1st Job) Pull data 
+### Webhook
 
 The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
 Jenkins pull the datasets.
@@ -96,7 +96,7 @@ But this functionality must be configured.
 
 ![Img](../assets/img/gogs_webhook.png)
 
-### (2nd Job | Python Analytics)
+### Generate_Analytics
 
 1. Create a new job(see previous Jenkins steps 1 and 2)
 2. In build section check [execute shell script]:
