@@ -109,6 +109,7 @@ Home specifies the location of our code. The last line executes the script.
 [Link to code](https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py)
 
 ### Code breakdown
+
 * *read_data* function loads the data-sets into pandas dataframe objects.    
 * *add_geodata* concatenates geographical coordinates.   
 * *get_statistics* calculates the mean/standard deviation /minimum & maximum  values. 
@@ -118,7 +119,9 @@ Home specifies the location of our code. The last line executes the script.
 * *scatter_plot* draws time series data.    
 * *forecast_model* does a 22 day forecast.  
 
+### Geo DataFrame
 
+![Img](../assets/img/gogs_webhook.png)
 
  
  
