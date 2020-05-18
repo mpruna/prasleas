@@ -177,7 +177,7 @@ echo 'git add Images'
 echo 'git commit -m "+added images"'
 echo 'git push origin master'
 ```
-The first line activate the bash shell.  
+The first line activates the bash shell.  
 The second one copies the Images from the analytics directory to the current directory.  
 The third one add/commits and pushes the code to the public repository.
 
