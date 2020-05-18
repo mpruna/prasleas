@@ -6,8 +6,10 @@ Gogs will act both as Private and Public repository. To showcase this functional
 Jenkins has been configured to “listen” for webhook requests.
 Each time a commit is pushed to the master branch of the Public_Repo, Gogs will send the webhook trigger to Jenkins.
 
-The public repo will host a "template markdown" with placeholders/fill ins for the analytics. The analytics will generate images and when the pipeline finishes it's execution it will fill in that template.
-As an end result you will have an up to date stats from COVID-19 data.
+[Datasets available here](https://covid19.geo-spatial.org/) 
+
+The public repo will host a “template markdown” with placeholders/filling for the analytics.
+The analytics script will generate images and when the  pipeline finishes its execution, it will fill in that placeholders. As an end result you will have an up to date statistics from COVID-19 data.
 
 ### Markdon template
 
@@ -29,7 +31,7 @@ The graph show the current **COVID-19** evolution:
 
 
 The rise of Corona-19 generated a lot of community initiatives to help fight pandemic.  
-On the analytics side John Hopkins University did an admirable job. But there where also other good project.  
+On the analytics side, John Hopkins University did an admirable job. But there where also other good projects.  
 See the links below:
 
 [**John Hopkins University**](https://coronavirus.jhu.edu/map.html)    
@@ -57,15 +59,13 @@ The workflow can be seen as a chained sequence of steps (build steps). Each succ
 ### Jenkins architecture
 
 Architecturally, Jenkins is fairly simple. Users of Jenkins create and maintain jobs, or projects. A project
-is a collection of steps, also called builds. The term “Build” comes from Jenkins’ heritage as a build
-automation system. “Building” software typically refers to the process of compilation, in which high-
-level, human-written code is translated to machine code.
+is a collection of steps, also called builds. The term “Build” comes from  the Jenkins heritage as a build
+automation system. “Building” software typically refers to the process of compilation, in which high-level, human-written code is translated to machine code.
 
-Jenkins organizes each project into it's home directory workspace (/var/lib/jenkins/workspace).
-Each build job has it's own directory, where each step in the job gets executed.  
+Jenkins organizes each project into its home directory workspace ("/var/lib/jenkins/workspace").
+Each build job has its own directory, where each step in the job gets executed.  
 There are 3 build spaces: Webhook | Generate_Analytics | Upload  
 Each build job triggers upon successful execution the next job.
-
 
 
 ### Jenkins directory tree
@@ -96,15 +96,13 @@ Each build job triggers upon successful execution the next job.
 ### Webhook
 
 The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
-Jenkins pull the datasets.
-The trigger is based on committed data to a public repo.
-But this functionality must be configured.
+Following this event the dataset will be donwloaded locally.
+The trigger is based on committed data to a public repo, but this functionality must be configured.
 
 #### Jenkins setup (Build job setup)
 
-
 1. Click add new item
-2. Choose freestyle project (name it) git it a name
+2. Choose freestyle project (name it/give the project a name)
 3. In (Source Code Management) choose Git:
     * Repository URL (**add http repository url**): http://localhost:3000/gogs/COVID_Private_Repo.git
     * Choose gogs credentials
@@ -117,13 +115,13 @@ But this functionality must be configured.
 1. Click Settings; Webhook  
 2. Setup Payload URL ```http://localhost:8080/gogs-webhook/?job=Webhook``` 
 3. Check (Webhook based on push event)
-4. Activate is and test delivery
+4. Activate it and test delivery
 
 ![Img](../assets/img/gogs_webhook.png)
 
 ### Generate_Analytics
 
-1. Create a new job(see previous Jenkins steps 1 and 2)
+1. Create a new job (see previous Jenkins steps 1 and 2)
 2. In build section check [execute shell script]:
 
 ### Shell commands:
@@ -135,7 +133,7 @@ home="/var/lib/jenkins/workspace/Generate_Analytics/code"
 $py $home/analytics.py
 ```
 The first line tells Jenkins where to look for the python version specific to our project.  
-The second line activates the bash shell. Jenkins uses by default sh shell.   
+The second line activates the bash shell. Jenkins does not use bash, and to avoid unwated behavior it's best to activate it.     
 The third line activates this particular python environment. Conda/Anaconda gives the user the opportunity to create "virtual python deployments". These "separated python mediums" can have different libraries.  
 Home specifies the location of our code. The last line executes the script.
 
