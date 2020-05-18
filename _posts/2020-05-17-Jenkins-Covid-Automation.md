@@ -59,6 +59,10 @@ Jenkins organizes each project into it's home directory workspace.
 │   │   └── romania-counties.json
 ```
 
+### Analytics end-to-end pipeline
+
+![Img](../asserts/img/analytics_pipeline.png)
+
 ### (1st Job) Pull data 
 
 The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
@@ -128,6 +132,26 @@ There are different geometry type and the most common are: Point, LineString, or
 
 ![Img](../assets/img/geo_shapes.png)
 
+
+### Upload
+
+Similar to the previous build job setup the Github repo url and choose the apropriate credentials. However this time instead of the private url will I will use the public one:
+
+```
+http://localhost:3000/gogs/COVID_Public.git
+```
+
+### Build step | Shell execution
+```
+$bash
+cp -r /var/lib/jenkins/workspace/Generate_Analytics/Images Images/
+echo 'git add Images'
+echo 'git commit -m "+added images"'
+echo 'git push origin master'
+```
+The first line activate the bash shell.  
+The second one copies the Images from the analytics directory to the current directory.  
+The third one add/commits and pushes the code to the public repository.
 
 
 
