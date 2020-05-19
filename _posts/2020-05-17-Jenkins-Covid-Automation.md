@@ -181,6 +181,9 @@ The first line activates the bash shell.
 The second one copies the Images from the analytics directory to the current directory.  
 The third one add/commits and pushes the code to the public repository.
 
+References:
+* https://github.com/gogs/gogs
+
 
 
  
