@@ -9,7 +9,7 @@ Gogs will act both as Private and Public repository. To showcase this functional
 
 
 As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
-In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass the code is made available to the public.
+In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass, the code is made available to the public.
 
 You could say that the **Webhook job** simulates the **integration part(CI part)**.  
 **Analytics** could be replaced with a **(Test job)**.  
