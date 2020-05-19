@@ -5,7 +5,9 @@ Gogs will act both as Private and Public repository. To showcase this functional
 
 ### Get Data | Analytics | Publish Data
 
-![Img](../assets/img/flow_diagram.png){: .center-image }
+<div style="text-align:center" markdown="1">
+![Img](../assets/img/flow_diagram.png)
+</div>
 
 As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
 In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass the code is made available to the public.
