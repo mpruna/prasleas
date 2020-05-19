@@ -36,7 +36,7 @@ Each time a commit is pushed to the master branch of the Public_Repo, Gogs will 
 The public repo will host a “template markdown” with placeholders/filling for the analytics.
 The analytics script will generate images and when the  pipeline finishes its execution, it will fill in that placeholders. As an end result you will have an up to date statistics from COVID-19 data.
 
-### Markdon template
+### Markdown template
 
 ```
 # Romania_COVID_Analytics(Under construction)
