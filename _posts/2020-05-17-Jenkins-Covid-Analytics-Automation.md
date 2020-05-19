@@ -1,13 +1,13 @@
 
 This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs (a private Github repo).
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
-Gogs will act both as Private and Public repository. To showcase this functionality I created COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
+Gogs will act both as Private and Public repository. To showcase this functionality I created a COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
 
-As a personal goal I also wanted to showcase, or at least to simulate a development workflow.
-In a development environment small groups work on specified parts of the code. Each of pieces of code gets integrated into the whole application. Several tests get performed and if the tests pass the code is made available to the public.
+As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
+In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass the code is made available to the public.
 
-You could was that the Webhook job simulates the integration part(CI part)
-Analytics could be replaced with a (Test job).
+You could say that the **Webhook job** simulates the **integration part(CI part)**.
+**Analytics** could be replaced with a **(Test job)**.
 
 
 ### Development (DEV):
