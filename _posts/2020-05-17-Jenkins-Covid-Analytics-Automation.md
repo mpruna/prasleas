@@ -88,7 +88,7 @@ is a collection of steps, also called builds. The term “Build” comes from  t
 automation system. “Building” software typically refers to the process of compilation, in which high-level, human-written code is translated to machine code.
 
 Jenkins organizes each project into its home directory workspace:  
-```("/var/lib/jenkins/workspace")```
+```("/var/lib/jenkins/workspace")```  
 Each build job has its own directory, where each step in the job gets executed.  
 There are 3 build spaces: Webhook | Generate_Analytics | Upload  
 Each build job triggers upon successful execution the next job.
@@ -174,7 +174,7 @@ Home specifies the location of our code. The last line executes the script.
 **get_statistics** calculates the mean/standard deviation /minimum & maximum  values. 
 **fit_fit_4fbprohpet** makes the necessary transformations on the data. The forecasting function requires a two column dataframe.  The ds column represents the day number, and y represents the actual count.  
 **fit_4timeseries** transforms time series data into lists. This manipulation is necessary for the time series plotting function. The series graphs (confirmed;recovered;dead numbers).    
-**plot_map** draws on Romania map the counties. The color intensity of each county matches the number of cases 
+**plot_map** draws on Romania map the counties. The color intensity of each county matches the number of cases.   
 **scatter_plot** draws time series data.    
 **forecast_model** does a 22 day forecast.  
 
