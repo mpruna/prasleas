@@ -182,7 +182,7 @@ Home specifies the location of our code. The last line executes the script.
 
 ![Img](../assets/img/geo_df.png)
 
-The "geometry" column in our dataset contains Polygon county boundries, each corresponding to a different region in Romania.  
+The "geometry" column in our dataset contains Polygon county boundaries, each corresponding to a different region in Romania.  
 There are different geometry type and the most common are: Point, LineString, or Polygon.  
 
 ![Img](../assets/img/geo_shapes.png)
@@ -190,7 +190,7 @@ There are different geometry type and the most common are: Point, LineString, or
 
 ### Upload
 
-Similar to the previous build job, setup the Github repo url and choose the apropriate credentials. However this time, instead of the private url, I will use the public one:
+Similar to the previous build job, setup the Github repo url and choose the apropriate credentials. But this time, instead of the private url, I will use the public one:
 
 ```
 http://localhost:3000/gogs/COVID_Public.git
