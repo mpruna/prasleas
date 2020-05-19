@@ -12,7 +12,7 @@ navbar-links:
   About Me: "aboutme"
   Resume: "resume"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Linkedin: "https://www.linkedin.com/in/mihai-pruna-3b4bb137/"
 
