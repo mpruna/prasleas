@@ -104,7 +104,8 @@ The trigger is based on committed data to a public repo, but this functionality 
 1. Click add new item
 2. Choose freestyle project (name it/give the project a name)
 3. In (Source Code Management) choose Git:
-    * Repository URL (**add http repository url**): http://localhost:3000/gogs/COVID_Private_Repo.git
+    * Repository URL (**add http repository url**): 
+         http://localhost:3000/gogs/COVID_Private_Repo.git  
     * Choose gogs credentials
 4. Build trigger:
     * Check (GitHub hook trigger for GITScm polling)
