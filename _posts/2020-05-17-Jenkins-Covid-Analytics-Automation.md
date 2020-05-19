@@ -3,6 +3,27 @@ This project describes a data acquisition and analytics pipeline based on Jenkin
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
 Gogs will act both as Private and Public repository. To showcase this functionality I created COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
 
+As a personal goal I also wanted to showcase, or at least to simulate a development workflow.
+In a development environment small groups work on specified parts of the code. Each of pieces of code gets integrated into the whole application. Several tests get performed and if the tests pass the code is made available to the public.
+
+You could was that the Webhook job simulates the integration part(CI part)
+Analytics could be replaced with a (Test job).
+
+
+### Development (DEV):
+This it is the first environment where software is deployed after being integrated. This environ-
+ment is constantly changing as new code is contributed, and may be in a non-functional state at any
+given time. Developers use this environment to conduct basic functional testing, sometimes referred to
+as “smoke testing.”
+### Test | QA | UA 
+Test environments are commonly used for integration, performance, and functional testing. Code gets tested for essential functionality. In the UA phase customer expectations get validated.
+Customer requirements get tested
+
+### Production (PROD):
+Public repository for project releases. It's where the customer goes to get the latest versions.
+
+
+
 Jenkins has been configured to “listen” for webhook requests.
 Each time a commit is pushed to the master branch of the Public_Repo, Gogs will send the webhook trigger to Jenkins.
 
