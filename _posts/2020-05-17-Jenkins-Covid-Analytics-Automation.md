@@ -5,7 +5,7 @@ Gogs will act both as Private and Public repository. To showcase this functional
 
 ### Get Data | Analytics | Publish Data
 
-<div style="text-align:center" markdown="1">
+<div style="text-align:center">
 ![Img](../assets/img/flow_diagram.png)
 </div>
 
