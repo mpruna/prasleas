@@ -208,6 +208,13 @@ The first line activates the bash shell.
 The second one copies the Images from the analytics directory to the current directory.  
 The third one add/commits and pushes the code to the public repository.
 
+### Results
+
+![Img](../assets/img/analytics1.png1.png)
+![Img](../assets/img/analytics1.png2.png)
+![Img](../assets/img/analytics1.png3.png)
+
+
 References:
 * https://github.com/gogs/gogs
 * https://github.com/mpruna/Romania_COVID_Analytics/tree/master/Description
