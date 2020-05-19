@@ -16,9 +16,8 @@ You could say that the **Webhook job** simulates the **integration part(CI part)
 
 
 ### Development (DEV):
-This it is the first environment where software is deployed after being integrated. This environ-
-ment is constantly changing as new code is contributed, and may be in a non-functional state at any
-given time. Developers use this environment to conduct basic functional testing, sometimes referred to
+This is the first environment where software is deployed after being integrated. This environment is constantly changing as new code is contributed, and may be in a non-functional state at any given time.   
+Developers use this environment to conduct basic functional testing, sometimes referred to
 as “smoke testing.”
 ### Test | QA | UA 
 Test environments are commonly used for integration, performance, and functional testing. Code gets tested for essential functionality. In the UA phase customer expectations get validated.
