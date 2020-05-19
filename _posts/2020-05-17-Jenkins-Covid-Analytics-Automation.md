@@ -88,7 +88,7 @@ is a collection of steps, also called builds. The term “Build” comes from  t
 automation system. “Building” software typically refers to the process of compilation, in which high-level, human-written code is translated to machine code.
 
 Jenkins organizes each project into its home directory workspace:  
-```("/var/lib/jenkins/workspace")```  
+```/var/lib/jenkins/workspace```  
 Each build job has its own directory, where each step in the job gets executed.  
 There are 3 build spaces: Webhook | Generate_Analytics | Upload  
 Each build job triggers upon successful execution the next job.
