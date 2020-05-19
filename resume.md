@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 subtitle: Here is my technical resume
 ---
-### Resume (Under Construction)
+### Résumé (Under Construction)
