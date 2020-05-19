@@ -21,10 +21,10 @@ Developers use this environment to conduct basic functional testing, sometimes r
 as “smoke testing.”
 ### Test | QA | UA 
 Test environments are commonly used for integration, performance, and functional testing. Code gets tested for essential functionality. In the UA phase customer expectations get validated.
-Customer requirements get tested
+Customer requirements get tested.
 
 ### Production (PROD):
-Public repository for project releases. It's where the customer goes to get the latest versions.
+It the public repository for project releases. It's where the customer goes to get the latest versions.
 
 
 
