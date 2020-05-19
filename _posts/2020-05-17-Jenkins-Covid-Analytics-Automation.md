@@ -5,7 +5,7 @@ Gogs will act both as Private and Public repository. To showcase this functional
 
 ### Get Data | Analytics | Publish Data
 
-![Img](../assets/img/flow_diagram.png width=500)
+![Img](../assets/img/flow_diagram.png, width=500)
 
 
 As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
