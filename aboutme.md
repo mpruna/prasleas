@@ -14,6 +14,6 @@ Nothing good come out self-satisfaction/self-congratulation, as such I continuou
 
 ### Art | Intellectual pursuit
 
-"Art is a call to a higher being/A piece of art it’s a window to a transcendent"
+"Art is a call to a higher being.A piece of art it’s a window to a transcendent"
 
 
