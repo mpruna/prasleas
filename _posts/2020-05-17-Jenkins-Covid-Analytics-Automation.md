@@ -7,24 +7,24 @@ Gogs will act both as Private and Public repository. To showcase this functional
 
 ![Img](../assets/img/flow_diagram.png)
 
-As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
-In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass the code is made available to the public.
 
-You could say that the **Webhook job** simulates the **integration part(CI part)**.
-**Analytics** could be replaced with a **(Test job)**.
+As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
+In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass, the code is made available to the public.
+
+You could say that the **Webhook job** simulates the **integration part(CI part)**.  
+**Analytics** could be replaced with a **(Test job)**.  
 
 
 ### Development (DEV):
-This it is the first environment where software is deployed after being integrated. This environ-
-ment is constantly changing as new code is contributed, and may be in a non-functional state at any
-given time. Developers use this environment to conduct basic functional testing, sometimes referred to
+This is the first environment where software is deployed after being integrated. This environment is constantly changing as new code is contributed, and may be in a non-functional state at any given time.   
+Developers use this environment to conduct basic functional testing, sometimes referred to
 as “smoke testing.”
 ### Test | QA | UA 
 Test environments are commonly used for integration, performance, and functional testing. Code gets tested for essential functionality. In the UA phase customer expectations get validated.
-Customer requirements get tested
+Customer requirements get tested.
 
 ### Production (PROD):
-Public repository for project releases. It's where the customer goes to get the latest versions.
+It the public repository for project releases. It's where the customer goes to get the latest versions.
 
 
 
@@ -87,7 +87,8 @@ Architecturally, Jenkins is fairly simple. Users of Jenkins create and maintain 
 is a collection of steps, also called builds. The term “Build” comes from  the Jenkins heritage as a build
 automation system. “Building” software typically refers to the process of compilation, in which high-level, human-written code is translated to machine code.
 
-Jenkins organizes each project into its home directory workspace ("/var/lib/jenkins/workspace").
+Jenkins organizes each project into its home directory workspace:  
+```/var/lib/jenkins/workspace```  
 Each build job has its own directory, where each step in the job gets executed.  
 There are 3 build spaces: Webhook | Generate_Analytics | Upload  
 Each build job triggers upon successful execution the next job.
@@ -121,7 +122,7 @@ Each build job triggers upon successful execution the next job.
 ### Webhook
 
 The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
-Following this event the dataset will be donwloaded locally.
+Following this event the dataset will be downloaded locally.
 The trigger is based on committed data to a public repo, but this functionality must be configured.
 
 #### Jenkins setup (Build job setup)
@@ -169,11 +170,11 @@ Home specifies the location of our code. The last line executes the script.
 ### Code breakdown
 
 **read_data** function loads the data-sets into pandas dataframe objects.    
-**add_geodata** concatenates geographical coordinates.   
+**add_geodata** merges geographical coordinates.   
 **get_statistics** calculates the mean/standard deviation /minimum & maximum  values. 
 **fit_fit_4fbprohpet** makes the necessary transformations on the data. The forecasting function requires a two column dataframe.  The ds column represents the day number, and y represents the actual count.  
 **fit_4timeseries** transforms time series data into lists. This manipulation is necessary for the time series plotting function. The series graphs (confirmed;recovered;dead numbers).    
-**plot_map** draws the number Romania map. Color intensity is proportional with count number.  
+**plot_map** draws on Romania map the counties. The color intensity of each county matches the number of cases.   
 **scatter_plot** draws time series data.    
 **forecast_model** does a 22 day forecast.  
 
