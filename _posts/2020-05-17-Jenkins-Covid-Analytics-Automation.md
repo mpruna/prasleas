@@ -121,7 +121,7 @@ Each build job triggers upon successful execution the next job.
 ### Webhook
 
 The first job listens for new data. This is done through a webhook trigger. When new data is available a notification is sent to Jenkins.
-Following this event the dataset will be donwloaded locally.
+Following this event the dataset will be downloaded locally.
 The trigger is based on committed data to a public repo, but this functionality must be configured.
 
 #### Jenkins setup (Build job setup)
