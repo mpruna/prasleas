@@ -210,9 +210,9 @@ The third one add/commits and pushes the code to the public repository.
 
 ### Results
 
-![Img](../assets/img/analytics1.png1.png)
-![Img](../assets/img/analytics1.png2.png)
-![Img](../assets/img/analytics1.png3.png)
+![Img](../assets/img/analytics1.png)
+![Img](../assets/img/analytics2.png)
+![Img](../assets/img/analytics3.png)
 
 
 References:
