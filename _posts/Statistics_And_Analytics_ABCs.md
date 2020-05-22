@@ -1,5 +1,9 @@
 ### Statistics and Analytics basics (Under Construction)
 
+**"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
+
+Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
+
 ![Img](../assets/img/chapell.jpeg)
 
 In this mini project I will explain a couple of statistics and analytics key concepts.  
@@ -43,3 +47,6 @@ For instance the Instagram and Tweeter variable describe quantities. These collu
 But Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
 Qualitative or categorial variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**.
 
+### Nation and Category
+
+![Img](../assets/img/first_plot.png)
