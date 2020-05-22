@@ -47,3 +47,6 @@ For instance the Instagram and Tweeter variable describe quantities. These collu
 But Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
 Qualitative or categorial variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**.
 
+### Nation and Category
+
+![Img](../assets/img/first_plot.png)
