@@ -1,5 +1,7 @@
 ### Statistics and Analytics basics
 
+![Img](assets/img/chapell.jpeg)
+
 In this mini project I will explain a couple of statistics and analytics key concepts.  
 Everything starts with fundamentals and these concepts are key for more advances Machine-Learning. 
 
