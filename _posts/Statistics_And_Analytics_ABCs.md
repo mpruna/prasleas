@@ -37,9 +37,9 @@ Athlete 	Category 	Gender 	Nation 	Rank 	Active 	Twitter 	Instagram 	Facebook
 4 	UFC 5: The Return of the Beast 	1995-04-07 	Independence Arena 	Charlotte 	North Carolina 	U.S. 	6000 	UFC 5 	Not Available 	Pre-PPV 	April 	1995 	NaN
 ```
 
-If we examine these 2 datasets we see that each row of data contains some properties. 
-These properties having distinct values are called variables. Variables can either describe quantities of qualities.
-For instance the Instagram and Tweeter variable describe quantities. These collumns describe  how much followers each fighter has.
-But Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.  
+If we examine these 2 datasets we see that each row of data contains some properties.   
+These properties having distinct values are called variables. Variables can either describe quantities of qualities.  
+For instance the Instagram and Tweeter variable describe quantities. These collumns describe  how much followers each fighter has.  
+But Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
 Qualitative or categorial variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**.
 
