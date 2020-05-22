@@ -1,5 +1,9 @@
 ### Statistics and Analytics basics (Under Construction)
 
+**"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
+
+Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
+
 ![Img](../assets/img/chapell.jpeg)
 
 In this mini project I will explain a couple of statistics and analytics key concepts.  
