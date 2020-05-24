@@ -2,7 +2,7 @@ This project describes a data acquisition and analytics pipeline based on Jenkin
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
 Gogs will act both as Private and Public repository. To showcase this functionality I created a COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
 
-### ![](/home/Github/prasleas/assets/img/pass_checks.png)Prerequisites
+### ![](../assets/img/pass_checks.png)Prerequisites
 
 - [x] Gogs is installed and fully functioning.
 - [x] Gogs ssh authentication is working.
