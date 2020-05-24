@@ -49,4 +49,8 @@ Qualitative or categorical variables don't have a direction, or in other words c
 
 ### Nation and Category
 
+<<<<<<< HEAD
 <img src="../assets/img/first_plot.png" alt="Img" style="zoom:150%;" />
+=======
+![Img](../assets/img/newplot(1).png)
+>>>>>>> 59d23883e0c37cb98297d7bc3f38fac3fd382b9c
