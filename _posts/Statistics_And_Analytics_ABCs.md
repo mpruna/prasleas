@@ -4,7 +4,7 @@
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
 
-![Img](../assets/img/chapell.jpeg)
+<img src="../assets/img/chapell.jpeg" alt="Img" style="zoom:150%;" />
 
 
 
@@ -33,11 +33,13 @@ I will also dive a little bit into some data cleaning and manipulation technique
 
 ### Fighter Dataset
 
-![Img](../assets/img/fighter_df.png)
+<img src="../assets/img/fighter_df.png" alt="Img" style="zoom:150%;" />
 
 ### UFC Events Dataset
 
-![Img](../assets/img/event_df.png)
+<img src="../assets/img/event_df.png" alt="Img" style="zoom:150%;" />
+
+
 
 If we examine these 2 datasets we see that each row of data contains some properties.   
 These properties having distinct values are called variables. Variables can either describe quantities of qualities.  
@@ -47,4 +49,4 @@ Qualitative or categorical variables don't have a direction, or in other words c
 
 ### Nation and Category
 
-![Img](../assets/img/first_plot.png)
+<img src="../assets/img/first_plot.png" alt="Img" style="zoom:150%;" />
