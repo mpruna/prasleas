@@ -1,12 +1,17 @@
-
 This project describes a data acquisition and analytics pipeline based on Jenkins, Python and Gogs (a private Github repo).
 Jenkins, a CI/CD tool mostly used in DevOps, will automate the complete process. Python scripts will do the heavy lifting. When triggered by Jenkins the scripts will pull the data and generate the analytics.
 Gogs will act both as Private and Public repository. To showcase this functionality I created a COVID_Public and a COVID_Private repositories. The published data on the "Public" repository will trigger a chain of events which will generate some analytics.
 
+### ![](/home/Github/prasleas/assets/img/pass_checks.png)Prerequisites
+
+- [x] Gogs is installed and fully functioning.
+- [x] Gogs ssh authentication is working.
+- [x] Jenkins is installed,  and Jenkins has user and ssh access to Gogs.
+- [x] Jenkins has access and execution grants to project directory workspace.
+
 ### Get Data | Analytics | Publish Data
 
 ![Img](../assets/img/flow_diagram.png)
-
 
 As a personal goal I also wanted to showcase, or at least to simulate, a development workflow.
 In a development environment small groups work on specific application parts. Each small part gets integrated into the whole application. Several tests are performed and if the tests pass, the code is made available to the public.
@@ -164,7 +169,7 @@ The second line activates the bash shell. Jenkins does not use bash, and to avoi
 The third line activates this particular python environment. Conda/Anaconda gives the user the opportunity to create "virtual python deployments". These "separated python mediums" can have different libraries.  
 Home specifies the location of our code. The last line executes the script.
 
- 
+
 [Link to code](https://github.com/mpruna/Romania_COVID_Analytics/blob/master/code/analytics.py)
 
 ### Code breakdown
@@ -222,4 +227,4 @@ References:
 
 
  
- 
+
