@@ -26,7 +26,7 @@ Related to statistical math I will explain terms such as:
 
 * populations and samples
 * distributions
-* mean | media | mode
+* mean media  mode
 * outliers
 
 I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a  specific type of plots.
