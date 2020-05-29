@@ -37,7 +37,25 @@ I will also dive a little bit into some data cleaning and manipulation technique
 
 ### UFC Events Dataset
 
-<img src="../assets/img/event_df.png" alt="Img" style="zoom:150%;" />
+<img src="../assets/img/event_df.png" alt="Img" style="zoom: 120%;" />
+
+
+
+#### Sampling and Population
+
+If we want an accurate answer for a question we must poll the entire population. If we want an accurate answer for a question we must poll the entire population. But this is not achievable due to money, time and resources constraints.  
+
+In statistical terms, we want our samples to be representative of their  corresponding populations. If a sample is representative, then the  sampling error is low. The more representative a sample is, the smaller  the sampling error. The less representative a sample is, the greater the sampling error.  
+
+So instead we choose samples that are representatives and could give an answer with a reasonable uncertainty interval.
+
+In statistics, the set of all individuals relevant to a particular  statistical question is called a population. For our analyst's question, all the fighters inside the UFC are relevant. So the population in  this case consisted from all the fighters in the company.
+
+
+
+#### Sample vs. Population
+
+Weather something is a sample or population is also dependents on the vantage point. If we consider all the fighters from UFC we are talking about a population. But if we consider fighters from other organizations of other sports categories such as Boxing or Kick Boxing then UFC fighters are just a sample.
 
 
 
@@ -46,6 +64,22 @@ These properties having distinct values are called variables. Variables can eith
 For instance the Instagram and Tweeter variable describe quantities. These columns describe  how much followers each fighter has.  
 But Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
 Qualitative or categorical variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**.
+
+
+
+#### Variables | Scales
+
+
+
+|                     Variable                      | Nominal | Ordinal | Interval | Ratio |
+| :-----------------------------------------------: | :-----: | ------- | -------- | ----- |
+| We can tell weather two individuals are different |   YES   | YES     | YES      | YES   |
+|             We can tell the direction             |   NO    | YES     | YES      | YES   |
+|      We can tell the size of the difference       |   NO    | NO      | YES      | YES   |
+|       We can measure qualitative variables        |   NO    | YES     | YES      | YES   |
+|       We can measure qualitative variables        |   YES   | NO      | NO       | NO    |
+
+
 
 ### Nation and Category
 
