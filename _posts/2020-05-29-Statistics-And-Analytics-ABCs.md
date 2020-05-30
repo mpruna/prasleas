@@ -55,23 +55,22 @@ In statistics, the set of all individuals relevant to a particular  statistical 
 
 #### Sample vs. Population
 
-Weather something is a sample or population is also dependents on the vantage point. If we consider all the fighters from UFC we are talking about a population. But if we consider fighters from other organizations, or other sports such as Boxing or Kick Boxing, then UFC fighters are just a sample.
-
+Weather something is a sample or population it depends on the point of view. If are talking about all the fighters from the UFC, then we are dealing with a population. But UFC fighters represent a sample if we are dealing with all the fighters from all the sports.
 
 
 #### Variables | Scales 
 
-If we examine these 2 datasets we see that each row of data contains some properties.   
+If we examine these two datasets we see that each row of data contains some properties.   
 The properties having distinct values are called variables. These variables can either describe quantities or qualities.  
-For instance the Instagram and Tweeter variable describe quantities. These columns describe  how many followers each fighter has.  
+For instance the Instagram and Tweeter variable describe quantities. These columns describe how many followers each fighter has.  
 
-A few variables in our data set clearly don't describe qualities. Generally, qualitative variables describe what or how something is.  
-Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
-Qualitative or categorical variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**. These 
+A few variables in our dataset describe qualities. Generally, qualitative variables describe what or how something is.  
+**Name**, **Nation**, or **Category** describe a quality for each fighter.
+Qualitative or categorical variables don't have a direction. We can't tell if something is better then something else. For instance we can't say that **Daniel Cormier** is a better the name then **Derrick Lewis**. We can't say that a fighter is better then another based on country. 
 
 
+If we look at the Category variable we can say that a fighter is heavier or lighter then another fighter. We have as well a sense of direction. But we can't tell for sure how big the difference is. This is because categories have lower and upper limits, and a fighter can fit anywhere in between.
 
-If we look at the Category variable we can say that a fighter is heavier then other fighter. But we can't say exactly how much heavier it is, but we have a sense of direction. We know that a fighter is heavier  or lighter then other.
 
 The system of rules that define how each variable is measured is called **scale of measurement** or, less often, **level of measurement**.
 
