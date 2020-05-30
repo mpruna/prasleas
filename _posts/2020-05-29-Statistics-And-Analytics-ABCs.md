@@ -135,22 +135,13 @@ is the sum of all the numbers divided by the total number of numbers
 
 
 
-The standard deviation is a standard (or typical) amount of deviation (or distance) from
-the average (or mean, as statisticians like to call it). So the standard deviation, in
-very rough terms, is the average distance from the mean.
+In very rough terms, is the average distance from the mean. 
+Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean we can see how values are distributed between in quartiles.
 
-Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean we can how values are distributed between a quartile.
-
-
-
-![](/home/Github/prasleas/assets/img/Standard_deviation_diagram.png)
-
+![Img](/home/Github/prasleas/assets/img/Standard_deviation_diagram.png)
 
 
 ![Img](../assets/img/ufc_social_media.png)
-
-
-
 
 
 Plotly Refs:
