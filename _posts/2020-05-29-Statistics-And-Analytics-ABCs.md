@@ -10,7 +10,7 @@ Before we learn how to run we must learn how to walk. There is no skipping funda
 
 In this mini project I will explain a couple of statistics and analytics key concepts.  Everything starts with fundamentals. These concepts are key for more advanced Machine-Learning algorithms. 
 
-A project must also have a natural flow to it. By this t I mean that each section must convey a clear answer and it must  natural lead to the next step.   
+A project must also have a natural flow to it. By this I mean that each section must convey a clear answer and it must  natural lead to the next step.   
 
 Choosing the appropriate plots or graphics is key to delivering a clear message.
 
@@ -62,7 +62,7 @@ Weather something is a sample or population is also dependents on the vantage po
 #### Variables | Scales 
 
 If we examine these 2 datasets we see that each row of data contains some properties.   
-The properties having distinct values are called variables. Variables can either describe quantities of qualities.  
+The properties having distinct values are called variables. These variables can either describe quantities or qualities.  
 For instance the Instagram and Tweeter variable describe quantities. These columns describe  how much followers each fighter has.  
 
 A few variables in our data set clearly don't describe qualities. Generally, qualitative variables describe what or how something is.  
