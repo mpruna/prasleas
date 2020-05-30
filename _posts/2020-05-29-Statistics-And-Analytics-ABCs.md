@@ -121,3 +121,51 @@ Bar charts are used to compare data across categories. We can intuitively identi
 
 Scatter plots on the other hand help us  find a correlation between 2 columns if the markers are close to each  other then that would mean that there is a strong correlation.
 
+
+
+#### Mean | Mode | Standard Deviation | Distributions
+
+
+
+Twitter and Instagram columns  are ideals for explaining mean, standard deviation concepts.
+
+The mean, also referred to by statisticians as the average, is the most common
+statistic used to measure the center, or middle, of a numerical data set. The mean
+is the sum of all the numbers divided by the total number of numbers
+
+
+
+The standard deviation is a standard (or typical) amount of deviation (or distance) from
+the average (or mean, as statisticians like to call it). So the standard deviation, in
+very rough terms, is the average distance from the mean.
+
+Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean we can how values are distributed between a quartile.
+
+
+
+![](/home/Github/prasleas/assets/img/Standard_deviation_diagram.png)
+
+
+
+![Img](../assets/img/ufc_social_media.png)
+
+
+
+
+
+Plotly Refs:
+
+* https://plotly.com/python/images/
+* https://plotly.com/python/imshow/
+
+Plotly v 4.8:
+
+* https://github.com/plotly/plotly.py/releases/tag/v4.8.0
+* https://plotly.com/python/pandas-backend/
+* https://plotly.com/python/wide-form/
+
+
+
+Statistics Refs:
+
+Statistics For Dummies - 2nd Revised Edition (2016).pdf
