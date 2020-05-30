@@ -4,11 +4,9 @@
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
 
-<img src="../assets/img/chapell.png" alt="Img" style="float: center margin-left: 100px;" />
-                                                                                     
-```                                                                                     
-<img src="../assets/img/chapell.png" alt="Img" style="style="float: center;zoom:150%;" />
-```
+<img src="../assets/img/chapell.png" alt="Img" style="zoom:150%;" />
+
+
 
 In this mini project I will explain a couple of statistics and analytics key concepts.  Everything starts with fundamentals. These concepts are key for more advanced Machine-Learning algorithms. 
 
@@ -28,7 +26,7 @@ Related to statistical math I will explain terms such as:
 
 * populations and samples
 * distributions
-* mean; median; mode
+* mean  media  mode
 * outliers
 
 I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a  specific type of plots.
@@ -51,12 +49,14 @@ In statistical terms, we want our samples to be representative of their  corresp
 
 So instead we choose samples that are representatives and could give an answer with a reasonable uncertainty interval.
 
-In statistics, the set of all individuals relevant to a particular statistical question is called a population. For our analyst's question, all the fighters inside the UFC are relevant. So the population in  this case consisted from all the fighters in the company.
+In statistics, the set of all individuals relevant to a particular  statistical question is called a population. For our analyst's question, all the fighters inside the UFC are relevant. So the population in  this case consisted from all the fighters in the company.
+
 
 
 #### Sample vs. Population
 
 Weather something is a sample or population is also dependents on the vantage point. If we consider all the fighters from UFC we are talking about a population. But if we consider fighters from other organizations, or other sports such as Boxing or Kick Boxing, then UFC fighters are just a sample.
+
 
 
 #### Variables | Scales 
@@ -65,9 +65,11 @@ If we examine these 2 datasets we see that each row of data contains some proper
 The properties having distinct values are called variables. Variables can either describe quantities of qualities.  
 For instance the Instagram and Tweeter variable describe quantities. These columns describe  how much followers each fighter has.  
 
-A few variables in our dataset describe qualities. Generally, qualitative variables describe what or how something is.  
-Name, Nation, or Category describe a quality for each fighter. There variables are also called categorical.     
-Qualitative or categorical variables don't have a direction, or in other words we can't really tell if something is better then something else. For instance we can't say that **Daniel Cormier** name is better the **Derrick Lewis** name.
+A few variables in our data set clearly don't describe qualities. Generally, qualitative variables describe what or how something is.  
+Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
+Qualitative or categorical variables don't have a direction, or in other words can't really tell if something is better then something else. For instance we can't say that as a name **Daniel Cormier** is better the **Derrick Lewis**. These 
+
+
 
 If we look at the Category variable we can say that a fighter is heavier then other fighter. But we can't say exactly how much heavier it is, but we have a sense of direction. We know that a fighter is heavier  or lighter then other.
 
@@ -95,9 +97,7 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 The fighter dataset has 171 rows and 8 columns. Each row represent some information about a fighter. 
 
-```
-fighter_stats.shape
-```
+`fighter_stats.shape`
 
 Below you can see the column description.
 
