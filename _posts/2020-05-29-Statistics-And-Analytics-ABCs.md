@@ -138,8 +138,7 @@ is the sum of all the numbers divided by the total number of numbers
 In very rough terms, is the average distance from the mean. 
 Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean we can see how values are distributed between in quartiles.
 
-![Img](/home/Github/prasleas/assets/img/Standard_deviation_diagram.png)
-
+![Img](../assets/img/Standard_deviation_diagram.png)
 
 ![Img](../assets/img/ufc_social_media.png)
 
