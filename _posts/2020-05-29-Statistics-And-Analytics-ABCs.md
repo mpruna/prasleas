@@ -4,7 +4,7 @@
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
 
-<img src="../assets/img/chapell.png" alt="Img" style="float: center margin-right: 10px;" />
+<img src="../assets/img/chapell.png" alt="Img" style="float: center margin-right: 100px;" />
                                                                                      
 ```                                                                                     
 <img src="../assets/img/chapell.png" alt="Img" style="style="float: center;zoom:150%;" />
