@@ -4,8 +4,11 @@
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
 
+<img src="../assets/img/chapell.png" alt="Img" style="style="float: center" />
+                                                                                     
+```                                                                                     
 <img src="../assets/img/chapell.png" alt="Img" style="style="float: center;zoom:150%;" />
-
+```
 
 In this mini project I will explain a couple of statistics and analytics key concepts.  Everything starts with fundamentals. These concepts are key for more advanced Machine-Learning algorithms. 
 
