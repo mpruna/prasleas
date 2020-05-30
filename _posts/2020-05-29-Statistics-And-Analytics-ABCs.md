@@ -63,7 +63,7 @@ Weather something is a sample or population is also dependents on the vantage po
 
 If we examine these 2 datasets we see that each row of data contains some properties.   
 The properties having distinct values are called variables. These variables can either describe quantities or qualities.  
-For instance the Instagram and Tweeter variable describe quantities. These columns describe  how much followers each fighter has.  
+For instance the Instagram and Tweeter variable describe quantities. These columns describe  how many followers each fighter has.  
 
 A few variables in our data set clearly don't describe qualities. Generally, qualitative variables describe what or how something is.  
 Name, Nation, or Category describe a quality for each fighter. Variables that describe qualities are called qualitative or categorical variables.    
