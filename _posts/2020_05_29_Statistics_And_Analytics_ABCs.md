@@ -26,7 +26,7 @@ Related to statistical math I will explain terms such as:
 
 * populations and samples
 * distributions
-* mean | media | mode
+* mean  media  mode
 * outliers
 
 I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a  specific type of plots.
@@ -93,6 +93,31 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 
 
-### Nation and Category
+#### Data Analytics
 
-![Img](../assets/img/newplot(1).png)
+The fighter dataset has 171 rows and 8 columns. Each row represent some information about a fighter. 
+
+`fighter_stats.shape`
+
+Below you can see the column description.
+
+<img src="/home/Github/prasleas/assets/img/ufc_fighter_column_description.png" alt="IMG" style="zoom: 150%;" />
+
+If we view the dataset as a whole then it represents a population. But we we look at it's subcategories we are dealing with samples. These categories might be the **weight class** or **gender**.
+
+Bar charts are used to compare data across categories. We can intuitively identify the differences and the direction. On the other hand a pie chart is used to determine a percentage. We want to know how much something .With pie charts, we can immediately get a visual sense for the proportion each category takes in a distribution.
+
+
+
+#### Nation and Category
+
+![Img](../assets/img/figther_combine_plots..png)
+
+<img src="../assets/img/ufc_figther_country.png" alt="Img" style="zoom:150%;" />
+
+
+
+<img src="../assets/img/ufc_male_female.png" alt="Img" style="zoom:150%;" />
+
+Scatter plots on the other hand help us  find a correlation between 2 columns if the markers are close to each  other then that would mean that there is a strong correlation.
+
