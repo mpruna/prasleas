@@ -20,7 +20,9 @@ Some graphs are better suited for particular scenarios then others.
 
 Also data manipulation is necessary in some circumstances. Data might come in different formats and we must convert the data if we want to do forecast or model it.
 
-------
+
+
+[TOC]
 
 Related to statistical math I will explain terms such as:
 
@@ -96,11 +98,31 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 The fighter dataset has 171 rows and 8 columns. Each row represent some information about a fighter. 
 
-`fighter_stats.shape`
+````fighter_stats.shape```
 
 Below you can see the column description.
 
-<img src="/home/Github/prasleas/assets/img/ufc_fighter_column_description.png" alt="IMG" style="zoom: 150%;" />
+
+
+#### Columns
+
+
+
+|  Column   | Description                                                  |
+| :-------: | ------------------------------------------------------------ |
+|  Athlete  | Name of the athlete                                          |
+| Category  | Weight class ( Heavyweight \| Light-Heavyweight etc )        |
+|  Gender   | Male or Female                                               |
+|  Nation   | Athlete's country                                            |
+|   Rank    | Rank within the organization. C is for champ, 0,1,2 are the next ranked fighters |
+|  Active   | If athlete is active or retired                              |
+|  Twitter  | Twitter followers                                            |
+| Instagram | Instagram followers                                          |
+| Facebook  | Facebook followers                                           |
+
+
+
+
 
 If we view the dataset as a whole then it represents a population. But we we look at it's subcategories we are dealing with samples. These categories might be the **weight class** or **gender**.
 
