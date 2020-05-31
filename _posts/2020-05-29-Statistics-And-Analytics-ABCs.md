@@ -102,6 +102,7 @@ The fighter dataset has 171 rows and 8 columns. Each row represent some informat
 
 Below you can see the column description.
 
+<<<<<<< HEAD
 
 
 #### Columns
@@ -119,8 +120,6 @@ Below you can see the column description.
 |  Twitter  | Twitter followers                                            |
 | Instagram | Instagram followers                                          |
 | Facebook  | Facebook followers                                           |
-
-
 
 
 
