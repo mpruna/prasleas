@@ -98,11 +98,9 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 The fighter dataset has 171 rows and 8 columns. Each row represent some information about a fighter. 
 
-````fighter_stats.shape```
+```fighter_stats.shape```
 
 Below you can see the column description.
-
-<<<<<<< HEAD
 
 
 #### Columns
