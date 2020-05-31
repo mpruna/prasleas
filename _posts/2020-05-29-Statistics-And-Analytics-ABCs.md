@@ -100,7 +100,7 @@ The fighter dataset has 171 rows and 8 columns. Each row represent some informat
 
 Below you can see the column description.
 
-<img src="/home/Github/prasleas/assets/img/ufc_fighter_column_description.png" alt="IMG" style="zoom: 150%;" />
+<img src="../assets/img/ufc_fighter_column_description.png" alt="img" style="zoom: 150%;" />
 
 If we view the dataset as a whole then it represents a population. But we we look at it's subcategories we are dealing with samples. These categories might be the **weight class** or **gender**.
 
