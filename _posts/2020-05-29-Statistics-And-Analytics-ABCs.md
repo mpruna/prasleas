@@ -8,30 +8,33 @@ Before we learn how to run we must learn how to walk. There is no skipping funda
 
 
 
-In this mini project I will explain a couple of statistics and analytics key concepts.  Everything starts with fundamentals. These concepts are key for more advanced Machine-Learning algorithms. 
+In this mini-project, I will explain a couple of statistics and analytics terms. Everything starts with fundamentals. These notions are necessary for more advanced Machine-Learning algorithms.
 
-A project must also have a natural flow to it. By this I mean that each section must convey a clear answer and it must  natural lead to the next step.   
+A project must also have a natural progression. Each section must provide a clear answer and it must naturally lead to the next step or chapter.
 
-Choosing the appropriate plots or graphics is key to delivering a clear message.
+Choosing the appropriate plots or graphics is equally important as some graphs are better than others to deliver an idea.
 
-At the most simplistic level the goal of an analysis is to provide an answer to a specific question.
+Choosing the appropriate plots or graphics is equally important as some graphs are better than others to deliver an idea.
 
-Some graphs are better suited for particular scenarios then others.
+The whole idea behind analytics is to make sense of the data, and provide some answers which could guide future decisions.
 
-Also data manipulation is necessary in some circumstances. Data might come in different formats and we must convert the data if we want to do forecast or model it.
+Data manipulation is necessary for some circumstances. Data might come in different formats and we must convert the data if we want to do forecast or model it.
 
 
 
-[TOC]
+I will explain terms such as:
 
-Related to statistical math I will explain terms such as:
+- populations and samples
 
-* populations and samples
-* distributions
-* mean  media  mode
-* outliers
+- distributions
 
-I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a  specific type of plots.
+- mean median mode
+
+- outliers
+
+  
+
+I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a specific type of plot.
 
 ### Fighter Dataset
 
@@ -45,13 +48,11 @@ I will also dive a little bit into some data cleaning and manipulation technique
 
 #### Sampling and Population
 
-If we want an accurate answer for a question we must poll the entire population. If we want an accurate answer for a question we must poll the entire population. But this is not achievable due to money, time and resources constraints.  
+If we want an accurate answer for a question we must poll the entire population. But this is not achievable due to money, time, and resources constraints.
 
-In statistical terms, we want our samples to be representative of their  corresponding populations. If a sample is representative, then the  sampling error is low. The more representative a sample is, the smaller  the sampling error. The less representative a sample is, the greater the sampling error.  
+In statistical terms, we want our samples to be representative of their corresponding populations. If a sample is relevant, then the sampling error is low. The more representative a sample is, the smaller the sampling error. The less representative a sample is, the greater the sampling error.
 
-So instead we choose samples that are representatives and could give an answer with a reasonable uncertainty interval.
-
-In statistics, the set of all individuals relevant to a particular  statistical question is called a population. For our analyst's question, all the fighters inside the UFC are relevant. So the population in  this case consisted from all the fighters in the company.
+In statistics, the set of all individuals relevant to a particular statistical question is called a population. For our analysis, all the fighters from the UFC represent a population.
 
 
 
