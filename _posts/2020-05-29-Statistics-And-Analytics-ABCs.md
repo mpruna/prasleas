@@ -161,6 +161,12 @@ Another way to think about standard deviation is to imagine a Gaussian distribut
 
 ![Img](../assets/img/ufc_social_media.png)
 
+![Img](../assets/img/ufc_times.png)
+
+![Img](../assets/img/ufc_country.png)
+
+![Img](../assets/img/ufc_map.png)
+
 
 Plotly Refs:
 
