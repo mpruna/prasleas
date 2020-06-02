@@ -58,36 +58,36 @@ In statistics, the set of all individuals relevant to a particular statistical q
 
 #### Sample vs. Population
 
-Weather something is a sample or population it depends on the point of view. If are talking about all the fighters from the UFC, then we are dealing with a population. But UFC fighters represent a sample if we are dealing with all the fighters from all the sports.
+Whether something is a sample or population it depends on the point of view. If we are talking about all the fighters from the UFC, then we are dealing with a population. But UFC fighters represent a sample if we are dealing with all the fighters from all the sports.
 
 
 #### Variables | Scales 
 
-If we examine these two datasets we see that each row of data contains some properties.   
-The properties having distinct values are called variables. These variables can either describe quantities or qualities.  
-For instance the Instagram and Tweeter variable describe quantities. These columns describe how many followers each fighter has.  
+If we examine these two datasets we see that each row of data contains some properties.
+The properties having distinct values are called variables. These variables can either describe quantities or qualities.
+For example, the Instagram and Tweeter variables describe quantities. These columns describe how many followers each fighter has.
 
-A few variables in our dataset describe qualities. Generally, qualitative variables describe what or how something is.  
-**Name**, **Nation**, or **Category** describe a quality for each fighter.
-Qualitative or categorical variables don't have a direction. We can't tell if something is better then something else. For instance we can't say that **Daniel Cormier** is a better the name then **Derrick Lewis**. We can't say that a fighter is better then another based on country. 
+A few variables in our dataset describe qualities. Generally, qualitative variables describe what or how something is.
+
+**Name**, **Nation**, or **Category** columns describe a quality for each fighter. Qualitative or categorical variables don’t have a direction. We can’t tell if something is better then something else. We can’t say that Daniel Cormier is a better the name then Derrick Lewis. We can’t say that a fighter is better than another based on his home country.
 
 
 If we look at the Category variable we can say that a fighter is heavier or lighter then another fighter. We have as well a sense of direction. But we can't tell for sure how big the difference is. This is because categories have lower and upper limits, and a fighter can fit anywhere in between.
 
 
-The system of rules that define how each variable is measured is called **scale of measurement** or, less often, **level of measurement**.
+The system of rules that define how each variable is measured is called the **scale of measurement** or, less often, **level of measurement**.
 
-A variable measured on a scale that preserves the order between values,  and have well-defined intervals using real numbers, is an example of a  variable measured either on an **interval** scale, either on a **ratio** scale.  
+A variable measured on a scale that preserves the order between values, and has well-defined intervals using real numbers, is an example of a variable measured either on an **interval scale** or on a **ratio scale**.
 
-In practice, variables measured on interval or ratio scales are very common. Instagram and Twitter columns can be measured on Interval or Ratio scale.
+In practice, variables measured on interval or ratio scales are very common. Instagram and Twitter columns can be measured on an interval or ratio scale. What sets apart ratio scales from interval scales is the nature of the zero point.
 
-**What sets apart ratio scales from interval scales is the nature of the zero point.**
+So if something weights 0 kilograms it indicates the absence of weight. If we take into account temperature measured on the Celsius scale then zero it’s not the absolute minimum value as there might be below 0 temperatures.
 
-So if something weights 0 kilograms it indicates the absence of weight. If we take into account temperature measured on Celsius scale then O  C it's not the absolute minimal value as there might be below 0 temperatures.
+
 
 |                     Variable                      | Nominal | Ordinal | Interval | Ratio |
 | :-----------------------------------------------: | :-----: | ------- | -------- | ----- |
-| We can tell weather two individuals are different |   YES   | YES     | YES      | YES   |
+| We can tell whether two individuals are different |   YES   | YES     | YES      | YES   |
 |             We can tell the direction             |   NO    | YES     | YES      | YES   |
 |      We can tell the size of the difference       |   NO    | NO      | YES      | YES   |
 |       We can measure qualitative variables        |   NO    | YES     | YES      | YES   |
@@ -97,7 +97,7 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 #### Data Analytics
 
-The fighter dataset has 171 rows and 8 columns. Each row represent some information about a fighter. 
+The fighter dataset has 171 rows and 8 columns. Each row represents some information about a fighter.
 
 ```fighter_stats.shape```
 
@@ -114,17 +114,17 @@ Below you can see the column description.
 | Category  | Weight class ( Heavyweight \| Light-Heavyweight etc )        |
 |  Gender   | Male or Female                                               |
 |  Nation   | Athlete's country                                            |
-|   Rank    | Rank within the organization. C is for champ, 0,1,2 are the next ranked fighters |
-|  Active   | If athlete is active or retired                              |
+|   Rank    | Rank within the organization. C is for the champ, 0,1,2 are the next ranked fighters |
+|  Active   | If an athlete is active or retired                           |
 |  Twitter  | Twitter followers                                            |
 | Instagram | Instagram followers                                          |
 | Facebook  | Facebook followers                                           |
 
 
 
-If we view the dataset as a whole then it represents a population. But we we look at it's subcategories we are dealing with samples. These categories might be the **weight class** or **gender**.
+If we view the dataset as a whole then it represents a population. But if we look at its subcategories we are dealing with samples. These categories might be weight class or gender.
 
-Bar charts are used to compare data across categories. We can intuitively identify the differences and the direction. On the other hand a pie chart is used to determine a percentage. We want to know how much something .With pie charts, we can immediately get a visual sense for the proportion each category takes in a distribution.
+Bar charts are used to compare data across categories. We can intuitively identify the differences and the direction. On the other hand, a pie chart is used to determine a percentage. We want to know how much something. With pie charts, we can immediately get a visual sense of the proportion each category takes in a distribution.
 
 
 
@@ -148,14 +148,9 @@ Scatter plots on the other hand help us  find a correlation between 2 columns if
 
 Twitter and Instagram columns  are ideals for explaining mean, standard deviation concepts.
 
-The mean, also referred to by statisticians as the average, is the most common
-statistic used to measure the center, or middle, of a numerical data set. The mean
-is the sum of all the numbers divided by the total number of numbers
+The mean also referred to by statisticians as the average, is the most common statistic used to measure the center, or middle, of a numerical data set. The mean is the sum of all the numbers divided by the total number of numbers
 
-
-
-In very rough terms, is the average distance from the mean. 
-Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean we can see how values are distributed between in quartiles.
+In very rough terms, is the average distance from the mean. Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean, we can see how values are distributed between in quartiles.
 
 ![Img](../assets/img/Standard_deviation_diagram.png)
 
