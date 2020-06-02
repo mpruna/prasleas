@@ -6,7 +6,7 @@ Before we learn how to run we must learn how to walk. There is no skipping funda
 
 
 
-![](/root/Downloads/Untitled Diagram(4).png)
+![](../assets/img/stats_logo.png)
 
 
 
