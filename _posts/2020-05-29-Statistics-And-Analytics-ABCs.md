@@ -4,7 +4,11 @@
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
 
-<img src="../assets/img/chapell.png" alt="Img" style="zoom:150%;" />
+
+
+![](/root/Downloads/Untitled Diagram(4).png)
+
+
 
 
 
@@ -150,13 +154,31 @@ Twitter and Instagram columns  are ideals for explaining mean, standard deviatio
 
 The mean also referred to by statisticians as the average, is the most common statistic used to measure the center, or middle, of a numerical data set. The mean is the sum of all the numbers divided by the total number of numbers
 
+
+
+The average, also called the mean of a data set, is denoted by below formula:
+$$
+\bar{x}=\sum\frac{xi}{n}
+$$
+where each value in the data set is denoted by an x with a subscript i that goes from 1 (the first number) to n (the last number).
+
+
+
+The standard deviation measures the deviation of numerical data. The standard deviation measures how concentrated the data are around the mean/average.
+
+Putting a measure of center (such as the mean or median) together with a measure of variation (such as standard deviation or interquartile range) is a good way to describe the values in a population. In the case where the data are in the shape of a bell curve (that is, they have a normal distribution.
+
 In very rough terms, is the average distance from the mean. Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean, we can see how values are distributed between in quartiles.
 
+The formula for the sample standard deviation of a data set (s) is:
+$$
+s=\sqrt{\frac{{\sum(x-\bar{x})^2}}{n-1}}
+$$
 ![Img](../assets/img/Standard_deviation_diagram.png)
 
 ![Img](../assets/img/ufc_social_media.png)
 
-<img src="../assets/img/ufc_times.png" alt="Img" style="zoom:150%;" />
+<img src="../assets/img/ufc_times.png" alt="Img" style="zoom: 150%;" />
 
 <img src="../assets/img/ufc_country.png" alt="Img" style="zoom:150%;" />
 
@@ -173,6 +195,10 @@ Plotly v 4.8:
 * https://github.com/plotly/plotly.py/releases/tag/v4.8.0
 * https://plotly.com/python/pandas-backend/
 * https://plotly.com/python/wide-form/
+
+Math in Markdown:
+
+* http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
 
 
 
