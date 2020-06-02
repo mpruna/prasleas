@@ -156,7 +156,9 @@ The mean also referred to by statisticians as the average, is the most common st
 
 
 
-The average, also called the mean of a data set, is denoted by below formula:
+The average, also called the mean of a data set, is denoted by below formula:  
+
+
 \begin{equation}
   \bar{x}=\sum\frac{xi}{n}
 \end{equation}
