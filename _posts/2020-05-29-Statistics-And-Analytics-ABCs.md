@@ -156,11 +156,11 @@ In very rough terms, is the average distance from the mean. Another way to think
 
 ![Img](../assets/img/ufc_social_media.png)
 
-![Img](../assets/img/ufc_times.png)
+<img src="../assets/img/ufc_times.png" alt="Img" style="zoom:150%;" />
 
-![Img](../assets/img/ufc_country.png)
+<img src="../assets/img/ufc_country.png" alt="Img" style="zoom:150%;" />
 
-![Img](../assets/img/ufc_map.png)
+<img src="../assets/img/ufc_map.png" alt="Img" style="zoom:150%;" />
 
 
 Plotly Refs:
