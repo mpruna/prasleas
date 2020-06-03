@@ -2,7 +2,7 @@
 
 **"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
 
-Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
+Before we learn how to run we must learn how to walk. There is no skipping fundamentals.  
 Data analyis was done with jupyter-notebook and it's available [at this location](https://github.com/mpruna/UFC-Data-Analytics).
 
 
