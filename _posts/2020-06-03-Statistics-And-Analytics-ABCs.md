@@ -127,7 +127,7 @@ Below you can see the column description.
 
 If we view the dataset as a whole then it represents a population. But if we look at its subcategories we are dealing with samples. These categories might be weight class or gender.
 
-Bar charts are used to compare data across categories. We can intuitively identify the differences and the direction. On the other hand, a pie chart is used to determine a percentage. We want to know how much something. With pie charts, we can immediately get a visual sense of the proportion each category takes in a distribution.
+Bar charts are used to compare data across categories. We can intuitively identify the differences and the direction. On the other hand, a pie chart is used to determine a percentage. We want to know how much something represents from the total. With pie charts, we can immediately get a visual sense of the proportion each category takes in a distribution.
 
 
 
