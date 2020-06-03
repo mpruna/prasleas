@@ -1,4 +1,4 @@
-### Statistics and Analytics basics (Under Construction)
+### Statistics and Analytics basics 
 
 **"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
 
@@ -132,6 +132,8 @@ Bar charts are used to compare data across categories. We can intuitively identi
 
 
 
+![](/home/Github/prasleas/assets/img/pie_pcent.png)
+
 #### Nation and Category
 
 ![Img](../assets/img/figther_combine_plots..png)
@@ -139,6 +141,8 @@ Bar charts are used to compare data across categories. We can intuitively identi
 <img src="../assets/img/ufc_figther_country.png" alt="Img" style="zoom:150%;" />
 
 
+
+#### Female versus Male fighters
 
 <img src="../assets/img/ufc_male_female.png" alt="Img" style="zoom:150%;" />
 
@@ -184,11 +188,25 @@ The formula for the sample standard deviation of a data set (s) is:
 
 ![Img](../assets/img/ufc_social_media.png)
 
+
+
+Line plots or area plots are ideal to show trends. These graphs are best suited for data that has a time component. We can use these types of graphs for events that have some type of seasonality. In this context, I refer to seasonality to events that repeat based on time of the day, day of the week, or yearly season.
+
+
+
+We can see an increase in UFC events over time with a peak in 2011.
+
 <img src="../assets/img/ufc_times.png" alt="Img" style="zoom: 150%;" />
+
+
 
 <img src="../assets/img/ufc_country.png" alt="Img" style="zoom:150%;" />
 
 <img src="../assets/img/ufc_map.png" alt="Img" style="zoom:150%;" />
+
+Another way to quantify the data and also to highlight the geographical component is to use a **chorpleth map.** A **choropleth map** (from [Greek](https://en.wikipedia.org/wiki/Greek_language) χῶρος "area/region" and πλῆθος "multitude") is a type of [thematic map](https://en.wikipedia.org/wiki/Thematic_map) in which areas are shaded or patterned in proportion to a statistical  variable that represents an aggregate summary of a geographic  characteristic within each area 
+
+
 
 ### Issues
 
