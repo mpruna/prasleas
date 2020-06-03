@@ -3,7 +3,7 @@
 **"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.
-
+Data analyis was done with jupyter-notebook and it's available [at this location](https://github.com/mpruna/UFC-Data-Analytics).
 
 
 ![](../assets/img/stats_logo.png)
@@ -103,7 +103,9 @@ So if something weights 0 kilograms it indicates the absence of weight. If we ta
 
 The fighter dataset has 171 rows and 8 columns. Each row represents some information about a fighter.
 
-```fighter_stats.shape```
+```
+  fighter_stats.shape
+```
 
 Below you can see the column description.
 
@@ -132,7 +134,7 @@ Bar charts are used to compare data across categories. We can intuitively identi
 
 
 
-![](/home/Github/prasleas/assets/img/pie_pcent.png)
+![Img](../assets/img/pie_pcent.png)
 
 #### Nation and Category
 
