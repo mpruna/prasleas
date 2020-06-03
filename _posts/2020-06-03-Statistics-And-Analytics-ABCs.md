@@ -11,12 +11,9 @@ Data analyis was done with jupyter-notebook and it's available [at this location
 
 
 
-
 In this mini-project, I will explain a couple of statistics and analytics terms. Everything starts with fundamentals. These notions are necessary for more advanced Machine-Learning algorithms.
 
 A project must also have a natural progression. Each section must provide a clear answer and it must naturally lead to the next step or chapter.
-
-Choosing the appropriate plots or graphics is equally important as some graphs are better than others to deliver an idea.
 
 Choosing the appropriate plots or graphics is equally important as some graphs are better than others to deliver an idea.
 
