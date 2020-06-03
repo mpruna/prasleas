@@ -193,13 +193,6 @@ Unable to embet math formulas in markdown:
 * https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#tag-not-properly-terminated
 * https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll
 
-```
-\begin{equation}
-  \bar{x}=\sum\frac{xi}{n}
-\end{equation}
-
-s=\sqrt{\frac{{\sum(x-\bar{x})^2}}{n-1}}
-```
 
 Plotly Refs:
 
