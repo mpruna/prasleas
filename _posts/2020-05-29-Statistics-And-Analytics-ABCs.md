@@ -169,6 +169,10 @@ The standard deviation measures the deviation of numerical data. The standard de
 
 Putting a measure of center (such as the mean or median) together with a measure of variation (such as standard deviation or interquartile range) is a good way to describe the values in a population. In the case where the data are in the shape of a bell curve (that is, they have a normal distribution.
 
+In [statistics](https://en.wikipedia.org/wiki/Statistics) and applications of statistics, **normalization** can have a range of meanings.[[1\]](https://en.wikipedia.org/wiki/Normalization_(statistics)#cite_note-Dodge-1) In the simplest cases, **normalization of ratings** means adjusting values measured on different scales to a notionally common scale, often prior to averaging
+
+
+
 In very rough terms, is the average distance from the mean. Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean, we can see how values are distributed between in quartiles.
 
 The formula for the sample standard deviation of a data set (s) is:
@@ -188,7 +192,7 @@ The formula for the sample standard deviation of a data set (s) is:
 
 ### Issues
 
-Unable to embet math formulas in markdown:
+Unable to embed mathematical formulas in markdown:
 
 * https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#tag-not-properly-terminated
 * https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll
@@ -208,6 +212,12 @@ Plotly v 4.8:
 Math in Markdown:
 
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
+
+Wikipedia:
+
+* https://en.wikipedia.org/wiki/Normalization_(statistics)
+
+  
 
 
 
