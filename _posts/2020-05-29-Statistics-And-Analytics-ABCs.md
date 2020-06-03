@@ -158,7 +158,7 @@ The mean also referred to by statisticians as the average, is the most common st
 
 The average, also called the mean of a data set, is denoted by below formula:  
 
-
+![Img](..assets/img/mean.png)
 
 
 where each value in the data set is denoted by an x with a subscript i that goes from 1 (the first number) to n (the last number).
@@ -172,6 +172,9 @@ Putting a measure of center (such as the mean or median) together with a measure
 In very rough terms, is the average distance from the mean. Another way to think about standard deviation is to imagine a Gaussian distribution. From the mean, we can see how values are distributed between in quartiles.
 
 The formula for the sample standard deviation of a data set (s) is:
+
+![Img[(..assets/img/standard_dev.png)
+
 
 ![Img](../assets/img/Standard_deviation_diagram.png)
 
