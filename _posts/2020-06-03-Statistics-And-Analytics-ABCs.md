@@ -5,6 +5,18 @@
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.  
 Data analysis was done with jupyter-notebook and it's available [at this location](https://github.com/mpruna/UFC-Data-Analytics).
 
+The python specific environment can be created using anaconda. The notebook for this project is read_ufc_data.ipynb.  
+Project structure on Github:
+
+'''
+├── datasets
+├── environment.yml
+├── Images
+├── README.md
+├── read_ufc_data.ipynb
+├── ufcdata
+└── ufc_data_analytics.ipynb
+'''
 
 ![](../assets/img/stats_logo.png)
 
@@ -186,7 +198,15 @@ The formula for the sample standard deviation of a data set (s) is:
 
 ![Img](../assets/img/ufc_social_media.png)
 
+### Twitter & Instagram Box plots
 
+In general histograms and box plots are mostly used to show values are distributed. To see how many data points fit in a category. We could use these types of graphs for Instagram and Twitter columns.  
+A box plot is a statistical representation of numerical data through their quartiles. The ends of the box represent the lower and upper quartiles, while the median (second quartile) is marked by a line inside the box.  
+The lines extending from the box plots like whiskers represent the minimum and the maximum values. The dotted lines represent the outliers. We can quickly stop from these graphs that the data is skewed in one direction. Or to put this in another way data is concentrated more around certain values. There is a bigger density. 
+Specific to your data more values are grouped above the mean/average value.
+
+![Img](../assets/img/box_plot1.png)
+![Img](../assets/img/box_plot2.png)
 
 Line plots or area plots are ideal to show trends. These graphs are best suited for data that has a time component. We can use these types of graphs for events that have some type of seasonality. In this context, I refer to seasonality to events that repeat based on time of the day, day of the week, or yearly season.
 
