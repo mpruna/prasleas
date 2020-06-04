@@ -8,7 +8,7 @@ Data analysis was done with jupyter-notebook and it's available [at this locatio
 The python specific environment can be created using anaconda. The notebook for this project is read_ufc_data.ipynb.  
 Project structure on Github:
 
-'''
+```
 ├── datasets
 ├── environment.yml
 ├── Images
@@ -16,7 +16,7 @@ Project structure on Github:
 ├── read_ufc_data.ipynb
 ├── ufcdata
 └── ufc_data_analytics.ipynb
-'''
+```
 
 ![](../assets/img/stats_logo.png)
 
