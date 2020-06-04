@@ -3,7 +3,7 @@
 **"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made."**
 
 Before we learn how to run we must learn how to walk. There is no skipping fundamentals.  
-Data analyis was done with jupyter-notebook and it's available [at this location](https://github.com/mpruna/UFC-Data-Analytics).
+Data analysis was done with jupyter-notebook and it's available [at this location](https://github.com/mpruna/UFC-Data-Analytics).
 
 
 ![](../assets/img/stats_logo.png)
@@ -144,8 +144,6 @@ Bar charts are used to compare data across categories. We can intuitively identi
 #### Female versus Male fighters
 
 <img src="../assets/img/ufc_male_female.png" alt="Img" style="zoom:150%;" />
-
-Scatter plots on the other hand help us  find a correlation between 2 columns if the markers are close to each  other then that would mean that there is a strong correlation.
 
 
 
