@@ -35,7 +35,8 @@ I will explain terms such as:
 
   
 
-I will also dive a little bit into some data cleaning and manipulation techniques. And also I will show what and when should we choose a specific type of plot.
+I also will dive a little bit into data cleaning and wrangling techniques.  
+Choosing an appropriate graph to highlight some conclusions is equally important. Some graphs are better suited for some scenarios than other.  
 
 ### Fighter Dataset
 
@@ -233,9 +234,4 @@ Wikipedia:
 * https://en.wikipedia.org/wiki/Normalization_(statistics)
 
   
-
-
-
-Statistics Refs:
-
-Statistics For Dummies - 2nd Revised Edition (2016).pdf
+Statistics Refs: Statistics For Dummies - 2nd Revised Edition (2016).pdf
