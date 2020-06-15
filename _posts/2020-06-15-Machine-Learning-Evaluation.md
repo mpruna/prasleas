@@ -3,7 +3,6 @@
 
 
 
-
 #### General Considerations
 
 A machine-learning model can is evaluated based on several criteria. These criteria could be related to performance, computational load, or time to converge. But in this article, I will talk about the most common errors used in Machine-Learning.
@@ -37,8 +36,7 @@ The labels are the house prices.
 
 
 
-
-<img src="/root/Desktop/Untitled Diagram.png"/>
+<img src="../assets/img/Untitled Diagram.png"/>
 
 
 
@@ -83,7 +81,7 @@ $$
 \sum_{i=1}^{n} \frac{|xi-yi|}{n}
 $$
 
-![](/root/Desktop/mae.png)
+![Img](../assets/img/mae.png)
 
 #### Mean Square Error
 
@@ -92,7 +90,7 @@ MSE formula:
 $$
 \frac1n{\sum_{i=1}^{n} (xi-yi)^2}
 $$
-![](/root/Desktop/mse_error.png)
+![Img](../assets/img/mse_error.png)
 
 MSE formula:
 
@@ -113,7 +111,7 @@ $$
 \sqrt{\sum_{i=1}^{n} \frac{(xi-yi)^2}{n}}
 $$
 
-![](/root/Desktop/rmse.png)
+![](../assets/img/rmse.png)
 
 
 
@@ -145,9 +143,9 @@ MAPE is the sum of the individual absolute errors divided by each time frame. So
 
 R squared it's used to find the optimal parameters in a linear regression model. A linear function is a function whose graph is a straight line on a 2D space. And we want to find out what is the best parameter we can come up with to approximate a function.
 
-![](/root/Desktop/liniar_model.png)
+![](../assets/img/liniar_model.png)
 
-![](/root/Desktop/liniar_fit.png)
+![](../assets/img/liniar_fit.png)
 
 
 
@@ -157,7 +155,7 @@ R-squared (R2) is a statistical measures the dependence of two variables. If we 
 
 
 
-<img src="/root/Downloads/Animated GIF-downsized_large.gif" style="zoom:130%;" />
+<img src="../assets/img/Animated GIF-downsized_large.gif" style="zoom:130%;" />
 
 
 
