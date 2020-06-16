@@ -14,7 +14,7 @@ So let me explain. We begin doing things with a certain belief. We have a world-
 
 #### Bit size philosophy
 
-From "philosophical point of view", Machine-Learning is analogous to our World-View. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
+From a "philosophical point of view", Machine-Learning is analogous to our World-View. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
 
 The general idea is not different when evaluating machine-learning algorithms. We must know how far off was the prediction. What caused the error in our model?
 
