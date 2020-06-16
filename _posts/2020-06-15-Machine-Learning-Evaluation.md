@@ -146,24 +146,13 @@ R squared it's used to find the optimal parameters in a linear regression model.
 ![](../assets/img/liniar_fit.png)
 
 
-
-In statistics, the **coefficient of determination** denoted *R*2 or *r*2 and pronounced "R squared", is the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
-
-R-squared (R2) is a statistical measures the dependence of two variables. If we have a variable x and y=f(x), then based on the input f(x) should be predictable.
+R-squared (R2) is a statistical measures the dependence of two variables. If we have a variable **x and y=f(x)**, then based on the input, f(x) should be predictable.
 
 
 
 <img src="../assets/img/Animated GIF-downsized_large.gif" style="zoom:150%;" />
 
-
-
-
-
-R-squared (R2) is a statistical measures the dependence of two variables. If we have a variable x and y=f(x), then based on the input f(x) should be predictable.
-
-It the context of a linear model it makes sense. A function linear function can be modeled using this formula f(x)=y. So the function output y depends on the input variable.
-
-Imagine now around that upward line random data points with no correlation. This means there is no correlation.  
+ 
 
 Refs:   
 
