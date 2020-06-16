@@ -155,7 +155,7 @@ R-squared (R2) is a statistical measures the dependence of two variables. If we 
 
 
 
-<img src="../assets/img/Animated GIF-downsized_large.gif" style="zoom:130%;" />
+<img src="../assets/img/Animated GIF-downsized_large.gif" style="zoom:150%;" />
 
 
 
