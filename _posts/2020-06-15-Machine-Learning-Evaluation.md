@@ -151,18 +151,13 @@ R-squared (R2) measures the dependence of two variables. If we have a variable x
 
  
 
-Refs:   
+References:   
 
-https://en.wikipedia.org/wiki/Coefficient_of_determination  
-
-https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit  
-
-https://www.investopedia.com/terms/r/r-squared.asp  
-
-https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
-
-
-References:
-
+```
+* https://en.wikipedia.org/wiki/Coefficient_of_determination  
+* https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit  
+* https://www.investopedia.com/terms/r/r-squared.asp  
+* https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 * https://en.wikipedia.org/wiki/Mean_squared_error
 * https://en.wikipedia.org/wiki/Mean_absolute_error
+```
