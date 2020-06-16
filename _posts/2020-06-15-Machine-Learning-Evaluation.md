@@ -1,6 +1,31 @@
 <img src="../assets/img/post_mlevalgiff.gif" style="zoom:150%;" />
 
+Prerequisites
 
+For this article, I used a python environment created with anaconda.
+The backbone of the environment is Python version 3.7.6. The analytics were done with the jupyter-notebook. Jupyter-notebook is an interactive web wrapper for python and other programming languages.
+The project is hosted here.
+
+Github project structure
+
+```
+├── environment.yml
+├── eval_error.py
+├── linear_regression.ipynb
+├── plotly_linear_model.ipynb
+└── README.md
+```
+#### Description
+
+* environment.yml contains the project specifications
+* eval_error.py python script calculates the errors
+*.ipynb are two jupyter-notebooks mostly used for graphing 
+
+Anaconda environment can be installed with below command:
+
+```
+conda env create -f environment.yml
+```
 
 #### General Considerations
 
