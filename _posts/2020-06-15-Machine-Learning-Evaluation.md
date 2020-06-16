@@ -14,7 +14,7 @@ So let me explain. We begin doing things with a certain belief. We have a world-
 
 #### Bit size philosophy
 
-From a certain philosophical point of view, machine-learning is similar to the way we adjust to our environment. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
+From "philosophical point of view", Machine-Learning is analogous to our World-View. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
 
 The general idea is not different when evaluating machine-learning algorithms. We must know how far off was the prediction. What caused the error in our model?
 
@@ -84,7 +84,7 @@ $$
 
 #### Mean Square Error
 
-It’s the square root of the average of squared differences between prediction and actual observation. 
+MSE is calculated by dividing the corresponding sum of squared errors to the sample size.  
 MSE formula:
 $$
 \frac1n{\sum_{i=1}^{n} (xi-yi)^2}
@@ -93,13 +93,13 @@ $$
 
 MSE formula:
 
-- n represents the number of data points. 
+- n represents the sample size. 
 - xi represents the observed values, 
 - yi the predicted values.
 
 
 
-MSE is more sensitive to errors as the difference between the actual value and the forecast is squared.
+MSE is sizable bigger because the errors get raised to the power of two before being averaged.
 
 #### Root Mean Squared Error
 
