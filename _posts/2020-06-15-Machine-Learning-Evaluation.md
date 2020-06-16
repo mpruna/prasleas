@@ -1,10 +1,35 @@
 <img src="../assets/img/post_mlevalgiff.gif" style="zoom:150%;" />
 
+Prerequisites
 
+For this article, I used a python environment created with anaconda.
+The backbone of the environment is Python version 3.7.6. The analytics were done with the jupyter-notebook. Jupyter-notebook is an interactive web wrapper for python and other programming languages.
+The project is hosted here.
+
+Github project structure
+
+```
+├── environment.yml
+├── eval_error.py
+├── linear_regression.ipynb
+├── plotly_linear_model.ipynb
+└── README.md
+```
+#### Description
+
+* environment.yml contains the project specifications
+* eval_error.py python script calculates the errors
+*.ipynb are two jupyter-notebooks mostly used for graphing 
+
+Anaconda environment can be installed with below command:
+
+```
+conda env create -f environment.yml
+```
 
 #### General Considerations
 
-A machine-learning model can is evaluated based on several criteria. These criteria could be related to performance, computational load, or time to converge. But in this article, I will talk about the most common errors used in Machine-Learning.
+A machine-learning model can be evaluated based on several criteria. These criteria could be related to performance, computational load, or time to converge. But in this article, I will talk about the most common errors used in Machine-Learning.
 
 The main goal of the analysis is to provide an accurate answer to a particular question. If you think about this a little bit this is an expression of life itself, it's beyond the technical domain.
 
@@ -14,7 +39,7 @@ So let me explain. We begin doing things with a certain belief. We have a world-
 
 #### Bit size philosophy
 
-From a certain philosophical point of view, machine-learning is similar to the way we adjust to our environment. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
+From a "philosophical point of view", Machine-Learning is analogous to our World-View. If we receive positive feedback it means that the way we act on the world is correct. If not, we have to change a few things. In a way this is good because it means we grow, we learn.
 
 The general idea is not different when evaluating machine-learning algorithms. We must know how far off was the prediction. What caused the error in our model?
 
@@ -84,7 +109,7 @@ $$
 
 #### Mean Square Error
 
-It’s the square root of the average of squared differences between prediction and actual observation. 
+MSE is calculated by dividing the corresponding sum of squared errors to the sample size.  
 MSE formula:
 $$
 \frac1n{\sum_{i=1}^{n} (xi-yi)^2}
@@ -93,17 +118,18 @@ $$
 
 MSE formula:
 
-- n represents the number of data points. 
+- n represents the sample size. 
 - xi represents the observed values, 
 - yi the predicted values.
 
 
 
-MSE is more sensitive to errors as the difference between the actual value and the forecast is squared.
+MSE is sizable bigger because the errors get raised to the power of two before being averaged.
 
 #### Root Mean Squared Error
 
-It’s the square root of the average of squared differences between prediction and actual observation. 
+RMSE is a quadratic scoring rule that also measures the average magnitude of the error. It’s the square root of the average of squared errors. Here the error represents the difference between prediction and actual value.
+
 RMSE is calculated with the formula below:
 
 $$
@@ -114,9 +140,7 @@ $$
 
 
 
-The way RMSE is calculated has some implications. The difference between the actual and predicted values is squared before it is averaged and rooted. This means the error is much more sensitive to large errors.
-RMSE is more sensitive to outliers: so the example with the largest error would skew the RMSE. MAE is less sensitive to outliers.
-An outlier in our case would be something that is not grouped around other values something that does not fit a particular pattern.
+The way RMSE is calculated has some implications. The individual errors get raised to the power of two before bein averaged. This means the RMSE is much more sensitive to large errors. RMSE is more sensitive to outliers. Outliers are extreme values that deviate from the normal values. 
 
 #### Root Mean Square Logarithmic Error
 
@@ -125,15 +149,13 @@ RMSLE metric only considers the relative error between and the predicted and the
 $$
 \sqrt{\sum_{i=1}^{n} \frac{(log(xi+1)-log(yi-1)^2}{n}}
 $$
-Reference:
 
-* https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 
 
 
 #### MAPE
 
-MAPE is the sum of the individual absolute errors divided by each time frame. So it calculates the percentage error at time-frame n. It should not be used on low volume data as it could give a negative assessment of actual data. Imagine this scenario, you have an e-commerce site and during summer holidays your sales decrease but some products have a higher demand than others. You could mislead this by thinking this will be the case when purchases are within normal values.
+MAPE is the sum of the individual absolute errors at each moment. It should not be used on low volume data.High errors during low-demand periods will have a major impact on MAPE.
 
 
 
@@ -146,7 +168,7 @@ R squared it's used to find the optimal parameters in a linear regression model.
 ![](../assets/img/liniar_fit.png)
 
 
-R-squared (R2) is a statistical that measures the dependence of two variables. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
+R-squared (R2) measures the dependence of two variables. If we have a variable x and y=f(x), then based on the input x, f(x) should be predictable. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
 
 
 
@@ -154,17 +176,14 @@ R-squared (R2) is a statistical that measures the dependence of two variables. I
 
  
 
-Refs:   
+References:   
 
-https://en.wikipedia.org/wiki/Coefficient_of_determination  
-
-https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit  
-
-https://www.investopedia.com/terms/r/r-squared.asp  
-
-
-
-References:
-
+```
+* https://en.wikipedia.org/wiki/Coefficient_of_determination  
+* https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit  
+* https://www.investopedia.com/terms/r/r-squared.asp  
+* https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 * https://en.wikipedia.org/wiki/Mean_squared_error
 * https://en.wikipedia.org/wiki/Mean_absolute_error
+* https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+```
