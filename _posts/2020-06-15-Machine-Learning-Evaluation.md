@@ -185,4 +185,5 @@ References:
 * https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 * https://en.wikipedia.org/wiki/Mean_squared_error
 * https://en.wikipedia.org/wiki/Mean_absolute_error
+* https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 ```
