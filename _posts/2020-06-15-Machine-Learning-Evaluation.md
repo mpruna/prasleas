@@ -120,8 +120,7 @@ An outlier in our case would be something that is not grouped around other value
 
 #### Root Mean Square Logarithmic Error
 
-RMSLE metric only considers the relative error between and the Predicted and the actual value and the scale of the error are not significant.
-
+RMSLE metric only considers the relative error between and the predicted and the actual value. The scale of the error is not important.
 
 $$
 \sqrt{\sum_{i=1}^{n} \frac{(log(xi+1)-log(yi-1)^2}{n}}
