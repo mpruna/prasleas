@@ -103,7 +103,8 @@ MSE is sizable bigger because the errors get raised to the power of two before b
 
 #### Root Mean Squared Error
 
-It’s the square root of the average of squared differences between prediction and actual observation. 
+RMSE is a quadratic scoring rule that also measures the average magnitude of the error. It’s the square root of the average of squared errors. Here the error represents the difference between prediction and actual value.
+
 RMSE is calculated with the formula below:
 
 $$
