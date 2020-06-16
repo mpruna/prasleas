@@ -114,9 +114,7 @@ $$
 
 
 
-The way RMSE is calculated has some implications. The difference between the actual and predicted values is squared before it is averaged and rooted. This means the error is much more sensitive to large errors.
-RMSE is more sensitive to outliers: so the example with the largest error would skew the RMSE. MAE is less sensitive to outliers.
-An outlier in our case would be something that is not grouped around other values something that does not fit a particular pattern.
+The way RMSE is calculated has some implications. The individual errors get raised to the power of two before bein averaged. This means the RMSE is much more sensitive to large errors. RMSE is more sensitive to outliers. Outliers are extreme values that deviate from the normal values. 
 
 #### Root Mean Square Logarithmic Error
 
