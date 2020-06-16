@@ -4,7 +4,7 @@
 
 #### General Considerations
 
-A machine-learning model can is evaluated based on several criteria. These criteria could be related to performance, computational load, or time to converge. But in this article, I will talk about the most common errors used in Machine-Learning.
+A machine-learning model can be evaluated based on several criteria. These criteria could be related to performance, computational load, or time to converge. But in this article, I will talk about the most common errors used in Machine-Learning.
 
 The main goal of the analysis is to provide an accurate answer to a particular question. If you think about this a little bit this is an expression of life itself, it's beyond the technical domain.
 
@@ -144,7 +144,7 @@ R squared it's used to find the optimal parameters in a linear regression model.
 ![](../assets/img/liniar_fit.png)
 
 
-R-squared (R2) is a statistical that measures the dependence of two variables. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
+R-squared (R2) measures the dependence of two variables. If we have a variable x and y=f(x), then based on the input x, f(x) should be predictable. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
 
 
 
