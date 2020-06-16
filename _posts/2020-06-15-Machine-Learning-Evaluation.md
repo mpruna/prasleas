@@ -123,15 +123,13 @@ RMSLE metric only considers the relative error between and the predicted and the
 $$
 \sqrt{\sum_{i=1}^{n} \frac{(log(xi+1)-log(yi-1)^2}{n}}
 $$
-Reference:
 
-* https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 
 
 
 #### MAPE
 
-MAPE is the sum of the individual absolute errors divided by each time frame. So it calculates the percentage error at time-frame n. It should not be used on low volume data as it could give a negative assessment of actual data. Imagine this scenario, you have an e-commerce site and during summer holidays your sales decrease but some products have a higher demand than others. You could mislead this by thinking this will be the case when purchases are within normal values.
+MAPE is the sum of the individual absolute errors at each moment. It should not be used on low volume data.High errors during low-demand periods will have a major impact on MAPE.
 
 
 
@@ -160,6 +158,7 @@ https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how
 
 https://www.investopedia.com/terms/r/r-squared.asp  
 
+https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 
 
 References:
