@@ -146,7 +146,7 @@ R squared it's used to find the optimal parameters in a linear regression model.
 ![](../assets/img/liniar_fit.png)
 
 
-R-squared (R2) is a statistical measures the dependence of two variables. If we have a variable **x and y=f(x)**, then based on the input, f(x) should be predictable.
+R-squared (R2) is a statistical that measures the dependence of two variables. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
 
 
 
