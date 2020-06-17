@@ -1,5 +1,7 @@
 <img src="../assets/img/post_mlevalgiff.gif" style="zoom:150%;" />
 
+
+
 Prerequisites
 
 For this article, I used a python environment created with anaconda.
@@ -98,6 +100,10 @@ With this small sample, we want to simulate a real case where our model does is 
 
 
 
+The Machine-Learning errors can be calculated with Python or by using Scikit-learn. [Scikit-learn](https://scikit-learn.org/stable/index.html) a scientific library most commonly used in Machine-Learning.
+
+
+
 #### Mean Absolute Error
 
 The sum of absolute errors divided by the number of samples. Absolute means that we don't take into account the direction of the error. If xi is the actual value and yi is the predicted one, and data has n samples the MSE can be expressed with this formula:
@@ -106,6 +112,27 @@ The sum of absolute errors divided by the number of samples. Absolute means that
 
 ![Img](../assets/img/mae.png)
 
+##### Python
+
+```
+    difference = predict - actual
+    square_diff = np.square(difference)
+
+    score = square_diff.mean()
+    return score
+```
+
+##### Scikit-Learn
+
+```
+mae = metrics.mean_absolute_error(y, y_2)
+```
+
+* y the actual value
+* y_2 predicted value
+
+
+
 #### Mean Square Error
 
 MSE is calculated by dividing the corresponding sum of squared errors to the sample size.  
@@ -113,13 +140,32 @@ MSE formula:
 
 ![](../assets/img/mse_formula.png)
 
-![Img](../assets/img/mse_error.png)
-
-MSE formula:
-
 - n represents the sample size. 
 - xi represents the observed values, 
 - yi the predicted values.
+
+![Img](../assets/img/mse_error.png)
+
+##### Python
+
+```
+difference = predict - actual
+square_diff = np.square(difference)
+
+score = square_diff.mean()
+return score
+```
+
+##### Scikit-Learn
+
+```
+mse = metrics.(y,y_2)
+```
+
+
+
+* y the actual value
+* y_2 predicted value
 
 
 
@@ -134,6 +180,22 @@ RMSE formula:
 ![](../assets/img/rmse_formula.png)
 
 ![](../assets/img/rmse.png)
+
+##### Python
+
+```
+difference = predict - actual
+square_diff = np.square(difference)
+mean_square_diff = square_diff.mean()
+score = np.sqrt(mean_square_diff)
+return score
+```
+
+##### Scikit-Learn:
+
+```
+rmse = np.sqrt(mse) #mse**(0.5)
+```
 
 
 
@@ -165,6 +227,16 @@ R squared it's used to find the optimal parameters in a linear regression model.
 ![](../assets/img/liniar_model.png)
 
 ![](../assets/img/liniar_fit.png)
+
+##### Scikit-Learn
+
+```
+r2 = metrics.r2_score(y,y_2)
+```
+
+* y the actual value
+* y_2 predicted value
+
 
 
 R-squared (R2) measures the dependence of two variables. If we have a variable x and y=f(x), then based on the input x, f(x) should be predictable. If we have a variable **x and y=f(x)**, then based on the input x, f(x) should be predictable.
