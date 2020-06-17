@@ -101,9 +101,8 @@ With this small sample, we want to simulate a real case where our model does is 
 #### Mean Absolute Error
 
 The sum of absolute errors divided by the number of samples. Absolute means that we don't take into account the direction of the error. If xi is the actual value and yi is the predicted one, and data has n samples the MSE can be expressed with this formula:
-$$
-\sum_{i=1}^{n} \frac{|xi-yi|}{n}
-$$
+
+![](../assets/img/mae_formula.png)
 
 ![Img](../assets/img/mae.png)
 
@@ -111,9 +110,9 @@ $$
 
 MSE is calculated by dividing the corresponding sum of squared errors to the sample size.  
 MSE formula:
-$$
-\frac1n{\sum_{i=1}^{n} (xi-yi)^2}
-$$
+
+![](../assets/img/mse_formula.png)
+
 ![Img](../assets/img/mse_error.png)
 
 MSE formula:
@@ -130,11 +129,9 @@ MSE is sizable bigger because the errors get raised to the power of two before b
 
 RMSE is a quadratic scoring rule that also measures the average magnitude of the error. It’s the square root of the average of squared errors. Here the error represents the difference between prediction and actual value.
 
-RMSE is calculated with the formula below:
+RMSE formula:
 
-$$
-\sqrt{\sum_{i=1}^{n} \frac{(xi-yi)^2}{n}}
-$$
+![](../assets/img/rmse_formula.png)
 
 ![](../assets/img/rmse.png)
 
@@ -146,9 +143,11 @@ The way RMSE is calculated has some implications. The individual errors get rais
 
 RMSLE metric only considers the relative error between and the predicted and the actual value. The scale of the error is not important.
 
-$$
-\sqrt{\sum_{i=1}^{n} \frac{(log(xi+1)-log(yi-1)^2}{n}}
-$$
+RMSLE formula:
+
+
+
+![](../assets/img/rmsle.png)
 
 
 
