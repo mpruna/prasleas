@@ -130,6 +130,8 @@ return score
 mae = metrics.mean_absolute_error(y, y_2)
 ```
 
+
+
 * y the actual value
 * y_2 predicted value
 
@@ -227,7 +229,7 @@ R squared it’s used to find the optimal parameters in a linear regression mode
 
 Linear function:
 
-![Img}(../assets/img/liniar_func.png)
+![Img](../assets/img/liniar_func.png)
 
 * m is the slope
 * b the intersect
