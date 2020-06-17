@@ -21,7 +21,7 @@ Github project structure
 
 * environment.yml contains the project specifications
 * eval_error.py python script calculates the errors
-*.ipynb are two jupyter-notebooks mostly used for graphing 
+* *.ipynb are two jupyter-notebooks mostly used for graphing 
 
 Anaconda environment can be installed with below command:
 
@@ -115,11 +115,11 @@ The sum of absolute errors divided by the number of samples. Absolute means that
 ##### Python
 
 ```
-    difference = predict - actual
-    square_diff = np.square(difference)
+difference = predict - actual
+square_diff = np.square(difference)
 
-    score = square_diff.mean()
-    return score
+score = square_diff.mean()
+return score
 ```
 
 ##### Scikit-Learn
