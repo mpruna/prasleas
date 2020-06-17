@@ -76,7 +76,7 @@ Some of the most common errors used in machine learning are:
 - Root Mean Square Logarithmic Error
 - Mean Bias Deviation
 
-![Img](../assets/img/errors_subplots.png)
+![Img](../assets/img/error_subplots.png)
 
 But first, let's create some synthetic data with python generators:
 
