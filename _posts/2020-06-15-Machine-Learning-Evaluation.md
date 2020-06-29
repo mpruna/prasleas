@@ -20,7 +20,7 @@ Jupiter-notebook is an interactive web wrapper for Python and other programming 
 #### Description
 
 * environment.yml contains the project specifications
-*eval_error.py python script calculates the errors
+* eval_error.py python script calculates the errors
 * *.ipynb are two jupyter-notebooks mostly used for graphing 
 
 Anaconda environment can be installed with below command:
