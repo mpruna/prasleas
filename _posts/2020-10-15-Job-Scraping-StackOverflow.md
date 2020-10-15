@@ -29,7 +29,7 @@ Pip is a package installer for Python.
 1) The script can be executed on demand using python as an interpreter and supling the job search options
 
 ```
-python web_scraper_v2.py -r yes -t "python django" -e Junior
+python web_scraper.py -r yes -t "python django" -e Junior
 Job report generated at: Thursday, 15. October 2020 05:53PM
 -r yes
 -t python django
@@ -65,8 +65,8 @@ WORKDIR /code
 
 # Install app dependencies
 
-ENV SLACK_BOT_TOKEN="xoxb-1406047504117-1406092662933-RgEoCSBtVsVSW73D4Gagcc0e"
-COPY requirements_scraper.txt requirements.txt
+ENV SLACK_BOT_TOKEN="slack_api_token"
+COPY requirements.txt requirements.txt
 COPY web_scraper.py .
 RUN chmod a+x web_scraper.py
 RUN pip install -r requirements.txt
@@ -161,7 +161,7 @@ We can find out the hierachy of an element in a web page by right-clicking the e
 <h2/>
 ```
 
-![IMG](/Img/inspect_link.png)
+![IMG](../assets/img/inspect_link.png)
 
 ```
 def get_jobslinks(start, url):
@@ -189,7 +189,7 @@ The **get_jobmeta** function extracts job-specific information. The information 
 
 ### Job requirement example
 
-![IMG](/Img/job_desc.png)
+![IMG](../assets/img/job_desc.png)
 
 ```
 def get_jobmeta(job_lists):
